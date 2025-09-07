@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [SauceDemo Test Suite]" verbose="0">
+  <test thread-count="2" parallel="tests" name="UI Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.TestCheckoutPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="checkoutFailsWhenMissingFirstName"/>
+          <include name="afterSuite"/>
+          <include name="completeCheckoutFlow"/>
+          <include name="setUp"/>
+          <include name="checkoutShowsCorrectConfirmationMessage"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
+    </classes>
+  </test> <!-- UI Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Test Suite] -->

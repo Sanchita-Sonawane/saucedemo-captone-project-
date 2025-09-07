@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceDemo Test Suite" verbose="1" parallel="tests" thread-count="2">
+  
+  <test name="UI Tests">
+    <classes>
+     <class name="com.saucedemo.tests.BaseTest"/>
+      <class name="com.saucedemo.tests.LoginPageTest"/>
+      <class name="com.saucedemo.tests.TestAddToCartPage"/>
+      <class name="com.saucedemo.tests.TestCartBadgeCountValidationPage"/>
+      <class name="com.saucedemo.tests.TestCheckoutPage"/>
+      <class name="com.saucedemo.tests.TestSortingProductPage"/>
+      <class name="com.saucedemo.tests.TestLogoutPage"/>
+    </classes>
+  </test>
+
+</suite>
