@@ -43,7 +43,7 @@ pipeline {
                             
                             git add .
                             git status
-                            git commit -m "Automated change from Jenkins at ${now}" || echo "No changes to commit"
+                            git commit -m "Automated change from Jenkins" || echo "No changes to commit"
                             git push https://%GIT_USER%:%GIT_PASS%@github.com/Sanchita-Sonawane/saucedemo-captone-project-.git HEAD:${BRANCH}
                         """
                     }
