@@ -1,0 +1,12 @@
+com\saucedemo\pages\AddToCartPage.class
+com\saucedemo\pages\CartBadgeCountValidationPage.class
+com\saucedemo\utils\ExtentManager.class
+com\saucedemo\pages\CheckoutPage.class
+com\saucedemo\pages\BasePage.class
+com\saucedemo\utils\DataSet.class
+com\saucedemo\utils\ScreenshotUtil.class
+com\saucedemo\pages\SortingProductPage.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\pages\LogoutPage.class
+com\saucedemo\pages\HomePage.class
+com\saucedemo\utils\DriverSetup.class

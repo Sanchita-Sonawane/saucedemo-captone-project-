@@ -10,8 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
     features = "src/test/resources/features",
     glue = "com.saucedemo.stepDefinitions",
-    plugin = {"pretty","html:reports/cucumber-reports/cucumber.html"},
-    monochrome = true
+    plugin = {"pretty","html:reports/cucumber-reports/cucumber.html"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 	 @AfterClass
@@ -20,3 +19,4 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	        DriverSetup.quitDriver();
 	    }
 }
+

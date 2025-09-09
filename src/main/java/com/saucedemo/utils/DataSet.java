@@ -10,3 +10,4 @@ public class DataSet {
     public static final String ERROR_USER ="error_user";
     public static final String VISUAL_USER = "visual_user";
 }
+

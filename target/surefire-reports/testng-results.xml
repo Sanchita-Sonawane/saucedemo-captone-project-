@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="31" passed="28" failed="3" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-06T12:48:32 IST" name="SauceDemo Test Suite" finished-at="2025-09-06T12:51:44 IST" duration-ms="191506">
+  <suite started-at="2025-09-09T10:58:30 IST" name="SauceDemo Test Suite" finished-at="2025-09-09T11:00:57 IST" duration-ms="146830">
     <groups>
     </groups>
-    <test started-at="2025-09-06T12:48:32 IST" name="UI Tests" finished-at="2025-09-06T12:51:44 IST" duration-ms="191506">
+    <test started-at="2025-09-09T10:58:30 IST" name="UI Tests" finished-at="2025-09-09T11:00:57 IST" duration-ms="146830">
       <class name="com.saucedemo.tests.TestSortingProductPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:36 IST" name="setUp" finished-at="2025-09-06T12:50:37 IST" duration-ms="1453" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:30 IST" name="setUp" finished-at="2025-09-09T11:00:33 IST" duration-ms="3658" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,29 +16,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@4c37b5b]]>
+                <![CDATA[public void com.saucedemo.tests.TestSortingProductPage.sortByNameAtoZ()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:37 IST" name="sortByNameAtoZ" finished-at="2025-09-06T12:50:41 IST" duration-ms="3878" status="PASS">
+        <test-method signature="sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:33 IST" name="sortByNameAtoZ" finished-at="2025-09-09T11:00:34 IST" duration-ms="985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameAtoZ -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:41 IST" name="tearDown" finished-at="2025-09-06T12:50:42 IST" duration-ms="1118" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:34 IST" name="tearDown" finished-at="2025-09-09T11:00:35 IST" duration-ms="406" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortByNameAtoZ status=SUCCESS method=TestSortingProductPage.sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf] output={null}]]]>
+                <![CDATA[[TestResult name=sortByNameAtoZ status=SUCCESS method=TestSortingProductPage.sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:42 IST" name="setUp" finished-at="2025-09-06T12:50:44 IST" duration-ms="1679" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:35 IST" name="setUp" finished-at="2025-09-09T11:00:39 IST" duration-ms="4381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,29 +47,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@73db4768]]>
+                <![CDATA[public void com.saucedemo.tests.TestSortingProductPage.sortByNameZtoA()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:44 IST" name="sortByNameZtoA" finished-at="2025-09-06T12:50:48 IST" duration-ms="3976" status="PASS">
+        <test-method signature="sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:39 IST" name="sortByNameZtoA" finished-at="2025-09-09T11:00:40 IST" duration-ms="1345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameZtoA -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:48 IST" name="tearDown" finished-at="2025-09-06T12:50:49 IST" duration-ms="933" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:40 IST" name="tearDown" finished-at="2025-09-09T11:00:41 IST" duration-ms="371" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortByNameZtoA status=SUCCESS method=TestSortingProductPage.sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf] output={null}]]]>
+                <![CDATA[[TestResult name=sortByNameZtoA status=SUCCESS method=TestSortingProductPage.sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:49 IST" name="setUp" finished-at="2025-09-06T12:50:50 IST" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:41 IST" name="setUp" finished-at="2025-09-09T11:00:45 IST" duration-ms="4074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,29 +78,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@71b3bc45]]>
+                <![CDATA[public void com.saucedemo.tests.TestSortingProductPage.sortByPriceHighToLow()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:50 IST" name="sortByPriceHighToLow" finished-at="2025-09-06T12:50:53 IST" duration-ms="3359" status="PASS">
+        <test-method signature="sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:45 IST" name="sortByPriceHighToLow" finished-at="2025-09-09T11:00:46 IST" duration-ms="1027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceHighToLow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:53 IST" name="tearDown" finished-at="2025-09-06T12:50:55 IST" duration-ms="1102" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:46 IST" name="tearDown" finished-at="2025-09-09T11:00:46 IST" duration-ms="424" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortByPriceHighToLow status=SUCCESS method=TestSortingProductPage.sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf] output={null}]]]>
+                <![CDATA[[TestResult name=sortByPriceHighToLow status=SUCCESS method=TestSortingProductPage.sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:55 IST" name="setUp" finished-at="2025-09-06T12:50:56 IST" duration-ms="1684" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:46 IST" name="setUp" finished-at="2025-09-09T11:00:51 IST" duration-ms="4719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,22 +109,22 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@a8c1f44]]>
+                <![CDATA[public void com.saucedemo.tests.TestSortingProductPage.sortByPriceLowToHigh()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:50:56 IST" name="sortByPriceLowToHigh" finished-at="2025-09-06T12:51:01 IST" duration-ms="4432" status="PASS">
+        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:51 IST" name="sortByPriceLowToHigh" finished-at="2025-09-09T11:00:52 IST" duration-ms="1080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf]" started-at="2025-09-06T12:51:01 IST" name="tearDown" finished-at="2025-09-06T12:51:01 IST" duration-ms="721" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T11:00:52 IST" name="tearDown" finished-at="2025-09-09T11:00:52 IST" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortByPriceLowToHigh status=SUCCESS method=TestSortingProductPage.sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@22555ebf] output={null}]]]>
+                <![CDATA[[TestResult name=sortByPriceLowToHigh status=SUCCESS method=TestSortingProductPage.sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809] output={null}]]]>
               </value>
             </param>
           </params>
@@ -133,7 +133,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestSortingProductPage -->
       <class name="com.saucedemo.tests.TestAddToCartPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:26 IST" name="setUp" finished-at="2025-09-06T12:49:27 IST" duration-ms="949" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:18 IST" name="setUp" finished-at="2025-09-09T10:59:22 IST" duration-ms="4131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,33 +142,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@150ab4ed]]>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.addItemUpdatesCartBadge()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:27 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:29 IST" duration-ms="1923" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:22 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:22 IST" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:29 IST" name="addItemUpdatesCartBadge" finished-at="2025-09-06T12:49:29 IST" duration-ms="163" status="PASS">
+        <test-method signature="addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:22 IST" name="addItemUpdatesCartBadge" finished-at="2025-09-09T10:59:23 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemUpdatesCartBadge -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:29 IST" name="tearDown" finished-at="2025-09-06T12:49:29 IST" duration-ms="578" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:23 IST" name="tearDown" finished-at="2025-09-09T10:59:23 IST" duration-ms="340" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addItemUpdatesCartBadge status=SUCCESS method=TestAddToCartPage.addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
+                <![CDATA[[TestResult name=addItemUpdatesCartBadge status=SUCCESS method=TestAddToCartPage.addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:29 IST" name="setUp" finished-at="2025-09-06T12:49:30 IST" duration-ms="973" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:23 IST" name="setUp" finished-at="2025-09-09T10:59:27 IST" duration-ms="4185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,33 +177,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3c435123]]>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.addToCartButtonChangesToRemove()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:30 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:33 IST" duration-ms="2317" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:27 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:28 IST" duration-ms="872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:33 IST" name="addToCartButtonChangesToRemove" finished-at="2025-09-06T12:49:33 IST" duration-ms="159" status="PASS">
+        <test-method signature="addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:28 IST" name="addToCartButtonChangesToRemove" finished-at="2025-09-09T10:59:28 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartButtonChangesToRemove -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:33 IST" name="tearDown" finished-at="2025-09-06T12:49:33 IST" duration-ms="490" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:28 IST" name="tearDown" finished-at="2025-09-09T10:59:29 IST" duration-ms="349" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addToCartButtonChangesToRemove status=SUCCESS method=TestAddToCartPage.addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
+                <![CDATA[[TestResult name=addToCartButtonChangesToRemove status=SUCCESS method=TestAddToCartPage.addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:33 IST" name="setUp" finished-at="2025-09-06T12:49:34 IST" duration-ms="972" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:29 IST" name="setUp" finished-at="2025-09-09T10:59:33 IST" duration-ms="4231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,33 +212,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@50fe837a]]>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.cartBadgeAccumulatesItems()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:34 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:36 IST" duration-ms="1907" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:33 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:34 IST" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:36 IST" name="cartBadgeAccumulatesItems" finished-at="2025-09-06T12:49:36 IST" duration-ms="226" status="PASS">
+        <test-method signature="cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:34 IST" name="cartBadgeAccumulatesItems" finished-at="2025-09-09T10:59:34 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartBadgeAccumulatesItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:36 IST" name="tearDown" finished-at="2025-09-06T12:49:37 IST" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:34 IST" name="tearDown" finished-at="2025-09-09T10:59:34 IST" duration-ms="322" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cartBadgeAccumulatesItems status=SUCCESS method=TestAddToCartPage.cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
+                <![CDATA[[TestResult name=cartBadgeAccumulatesItems status=SUCCESS method=TestAddToCartPage.cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:37 IST" name="setUp" finished-at="2025-09-06T12:49:38 IST" duration-ms="951" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:34 IST" name="setUp" finished-at="2025-09-09T10:59:39 IST" duration-ms="4642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,68 +247,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@3a62c01e]]>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.cartLinkNavigatesToCartPage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:38 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:40 IST" duration-ms="2545" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:39 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:39 IST" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="cartBadgeNotVisibleWhenEmpty()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:40 IST" name="cartBadgeNotVisibleWhenEmpty" finished-at="2025-09-06T12:49:41 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cartBadgeNotVisibleWhenEmpty -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:41 IST" name="tearDown" finished-at="2025-09-06T12:49:41 IST" duration-ms="569" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cartBadgeNotVisibleWhenEmpty status=SUCCESS method=TestAddToCartPage.cartBadgeNotVisibleWhenEmpty()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:41 IST" name="setUp" finished-at="2025-09-06T12:49:42 IST" duration-ms="1038" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7a8fa663]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:42 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:45 IST" duration-ms="2711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:45 IST" name="cartLinkNavigatesToCartPage" finished-at="2025-09-06T12:49:45 IST" duration-ms="170" status="PASS">
+        <test-method signature="cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:39 IST" name="cartLinkNavigatesToCartPage" finished-at="2025-09-09T10:59:40 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartLinkNavigatesToCartPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:45 IST" name="tearDown" finished-at="2025-09-06T12:49:46 IST" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:40 IST" name="tearDown" finished-at="2025-09-09T10:59:40 IST" duration-ms="423" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cartLinkNavigatesToCartPage status=SUCCESS method=TestAddToCartPage.cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
+                <![CDATA[[TestResult name=cartLinkNavigatesToCartPage status=SUCCESS method=TestAddToCartPage.cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:46 IST" name="setUp" finished-at="2025-09-06T12:49:47 IST" duration-ms="982" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:40 IST" name="setUp" finished-at="2025-09-09T10:59:46 IST" duration-ms="5924" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,26 +282,61 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5ce33a58]]>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.removeFromCartButtonChangesToAddToCart()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:47 IST" name="loginBeforeEachTest" finished-at="2025-09-06T12:49:49 IST" duration-ms="2394" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:46 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:47 IST" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:49 IST" name="removeItemUpdatesCartBadgeToZero" finished-at="2025-09-06T12:49:49 IST" duration-ms="242" status="PASS">
+        <test-method signature="removeFromCartButtonChangesToAddToCart()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:47 IST" name="removeFromCartButtonChangesToAddToCart" finished-at="2025-09-09T10:59:47 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeItemUpdatesCartBadgeToZero -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13]" started-at="2025-09-06T12:49:49 IST" name="tearDown" finished-at="2025-09-06T12:49:50 IST" duration-ms="599" status="PASS">
+        </test-method> <!-- removeFromCartButtonChangesToAddToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:47 IST" name="tearDown" finished-at="2025-09-09T10:59:48 IST" duration-ms="1034" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeItemUpdatesCartBadgeToZero status=SUCCESS method=TestAddToCartPage.removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@5656be13] output={null}]]]>
+                <![CDATA[[TestResult name=removeFromCartButtonChangesToAddToCart status=SUCCESS method=TestAddToCartPage.removeFromCartButtonChangesToAddToCart()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:48 IST" name="setUp" finished-at="2025-09-09T10:59:52 IST" duration-ms="4059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.TestAddToCartPage.removeItemUpdatesCartBadgeToZero()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:52 IST" name="loginBeforeEachTest" finished-at="2025-09-09T10:59:53 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:53 IST" name="removeItemUpdatesCartBadgeToZero" finished-at="2025-09-09T10:59:53 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemUpdatesCartBadgeToZero -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T10:59:53 IST" name="tearDown" finished-at="2025-09-09T10:59:53 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemUpdatesCartBadgeToZero status=SUCCESS method=TestAddToCartPage.removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484] output={null}]]]>
               </value>
             </param>
           </params>
@@ -345,7 +345,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestAddToCartPage -->
       <class name="com.saucedemo.tests.TestCartBadgeCountValidationPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:09 IST" name="setUp" finished-at="2025-09-06T12:51:12 IST" duration-ms="2791" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T10:59:53 IST" name="setUp" finished-at="2025-09-09T10:59:58 IST" duration-ms="4547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,68 +354,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@78a287ed]]>
+                <![CDATA[public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingItems()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:12 IST" name="loginAndSetup" finished-at="2025-09-06T12:51:16 IST" duration-ms="4387" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T10:59:58 IST" name="loginAndSetup" finished-at="2025-09-09T10:59:58 IST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeDoesNotIncrementForSameItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:16 IST" name="badgeDoesNotIncrementForSameItem" finished-at="2025-09-06T12:51:17 IST" duration-ms="235" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- badgeDoesNotIncrementForSameItem -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:17 IST" name="tearDown" finished-at="2025-09-06T12:51:17 IST" duration-ms="749" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=badgeDoesNotIncrementForSameItem status=SUCCESS method=TestCartBadgeCountValidationPage.badgeDoesNotIncrementForSameItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:17 IST" name="setUp" finished-at="2025-09-06T12:51:19 IST" duration-ms="1673" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@546ccad7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:19 IST" name="loginAndSetup" finished-at="2025-09-06T12:51:22 IST" duration-ms="3371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:22 IST" name="badgeIncrementsWhenAddingItems" finished-at="2025-09-06T12:51:23 IST" duration-ms="654" status="PASS">
+        <test-method signature="badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T10:59:58 IST" name="badgeIncrementsWhenAddingItems" finished-at="2025-09-09T10:59:59 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeIncrementsWhenAddingItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:23 IST" name="tearDown" finished-at="2025-09-06T12:51:24 IST" duration-ms="1222" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T10:59:59 IST" name="tearDown" finished-at="2025-09-09T10:59:59 IST" duration-ms="353" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=badgeIncrementsWhenAddingItems status=SUCCESS method=TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059] output={null}]]]>
+                <![CDATA[[TestResult name=badgeIncrementsWhenAddingItems status=SUCCESS method=TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:24 IST" name="setUp" finished-at="2025-09-06T12:51:26 IST" duration-ms="2190" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T10:59:59 IST" name="setUp" finished-at="2025-09-09T11:00:03 IST" duration-ms="3774" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,33 +389,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@5357c287]]>
+                <![CDATA[public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoItems()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:26 IST" name="loginAndSetup" finished-at="2025-09-06T12:51:30 IST" duration-ms="3484" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:03 IST" name="loginAndSetup" finished-at="2025-09-09T11:00:03 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:30 IST" name="badgeShowsTwoWhenAddingTwoItems" finished-at="2025-09-06T12:51:30 IST" duration-ms="485" status="PASS">
+        <test-method signature="badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:03 IST" name="badgeShowsTwoWhenAddingTwoItems" finished-at="2025-09-09T11:00:04 IST" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeShowsTwoWhenAddingTwoItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:30 IST" name="tearDown" finished-at="2025-09-06T12:51:31 IST" duration-ms="926" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:04 IST" name="tearDown" finished-at="2025-09-09T11:00:04 IST" duration-ms="328" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=badgeShowsTwoWhenAddingTwoItems status=SUCCESS method=TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059] output={null}]]]>
+                <![CDATA[[TestResult name=badgeShowsTwoWhenAddingTwoItems status=SUCCESS method=TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:31 IST" name="setUp" finished-at="2025-09-06T12:51:33 IST" duration-ms="1686" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:04 IST" name="setUp" finished-at="2025-09-09T11:00:07 IST" duration-ms="3349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,61 +424,26 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1623134f]]>
+                <![CDATA[public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingItem()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:33 IST" name="loginAndSetup" finished-at="2025-09-06T12:51:36 IST" duration-ms="3343" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:07 IST" name="loginAndSetup" finished-at="2025-09-09T11:00:08 IST" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeShowsZeroWhenNoItemsAdded()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:36 IST" name="badgeShowsZeroWhenNoItemsAdded" finished-at="2025-09-06T12:51:36 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- badgeShowsZeroWhenNoItemsAdded -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:36 IST" name="tearDown" finished-at="2025-09-06T12:51:37 IST" duration-ms="1060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=badgeShowsZeroWhenNoItemsAdded status=SUCCESS method=TestCartBadgeCountValidationPage.badgeShowsZeroWhenNoItemsAdded()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:37 IST" name="setUp" finished-at="2025-09-06T12:51:39 IST" duration-ms="1701" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@7a527389]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:39 IST" name="loginAndSetup" finished-at="2025-09-06T12:51:42 IST" duration-ms="3275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:42 IST" name="badgeUpdatesAfterRemovingItem" finished-at="2025-09-06T12:51:43 IST" duration-ms="724" status="PASS">
+        <test-method signature="badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:08 IST" name="badgeUpdatesAfterRemovingItem" finished-at="2025-09-09T11:00:08 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeUpdatesAfterRemovingItem -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059]" started-at="2025-09-06T12:51:43 IST" name="tearDown" finished-at="2025-09-06T12:51:44 IST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T11:00:08 IST" name="tearDown" finished-at="2025-09-09T11:00:09 IST" duration-ms="352" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=badgeUpdatesAfterRemovingItem status=SUCCESS method=TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@45752059] output={null}]]]>
+                <![CDATA[[TestResult name=badgeUpdatesAfterRemovingItem status=SUCCESS method=TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -522,17 +452,17 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestCartBadgeCountValidationPage -->
       <class name="com.saucedemo.tests.BaseTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@31304f14]" started-at="2025-09-06T12:48:32 IST" name="beforeSuite" finished-at="2025-09-06T12:48:32 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T10:58:30 IST" name="beforeSuite" finished-at="2025-09-09T10:58:30 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@31304f14]" started-at="2025-09-06T12:51:44 IST" name="afterSuite" finished-at="2025-09-06T12:51:45 IST" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T11:00:57 IST" name="afterSuite" finished-at="2025-09-09T11:00:58 IST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.saucedemo.tests.BaseTest -->
       <class name="com.saucedemo.tests.TestCheckoutPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:49:50 IST" name="setUp" finished-at="2025-09-06T12:49:51 IST" duration-ms="1202" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:09 IST" name="setUp" finished-at="2025-09-09T11:00:12 IST" duration-ms="3163" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,29 +471,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@485a3466]]>
+                <![CDATA[public void com.saucedemo.tests.TestCheckoutPage.cancelCheckoutShouldReturnToCart()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:49:51 IST" name="cancelCheckoutShouldReturnToCart" finished-at="2025-09-06T12:49:54 IST" duration-ms="3149" status="PASS">
+        <test-method signature="cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:12 IST" name="cancelCheckoutShouldReturnToCart" finished-at="2025-09-09T11:00:13 IST" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelCheckoutShouldReturnToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:49:54 IST" name="tearDown" finished-at="2025-09-06T12:49:55 IST" duration-ms="701" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:13 IST" name="tearDown" finished-at="2025-09-09T11:00:13 IST" duration-ms="321" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cancelCheckoutShouldReturnToCart status=SUCCESS method=TestCheckoutPage.cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6] output={null}]]]>
+                <![CDATA[[TestResult name=cancelCheckoutShouldReturnToCart status=SUCCESS method=TestCheckoutPage.cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:49:55 IST" name="setUp" finished-at="2025-09-06T12:49:56 IST" duration-ms="1080" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:13 IST" name="setUp" finished-at="2025-09-09T11:00:17 IST" duration-ms="3746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -572,29 +502,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@25748410]]>
+                <![CDATA[public void com.saucedemo.tests.TestCheckoutPage.cannotCheckoutWithEmptyCart()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:49:56 IST" name="cannotCheckoutWithEmptyCart" finished-at="2025-09-06T12:50:06 IST" duration-ms="10498" status="PASS">
+        <test-method signature="cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:17 IST" name="cannotCheckoutWithEmptyCart" finished-at="2025-09-09T11:00:18 IST" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cannotCheckoutWithEmptyCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:06 IST" name="tearDown" finished-at="2025-09-06T12:50:08 IST" duration-ms="1593" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:18 IST" name="tearDown" finished-at="2025-09-09T11:00:18 IST" duration-ms="413" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cannotCheckoutWithEmptyCart status=SUCCESS method=TestCheckoutPage.cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6] output={null}]]]>
+                <![CDATA[[TestResult name=cannotCheckoutWithEmptyCart status=SUCCESS method=TestCheckoutPage.cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:08 IST" name="setUp" finished-at="2025-09-06T12:50:11 IST" duration-ms="2979" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:18 IST" name="setUp" finished-at="2025-09-09T11:00:22 IST" duration-ms="4003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -603,182 +533,29 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2b43529a]]>
+                <![CDATA[public void com.saucedemo.tests.TestCheckoutPage.checkoutShowsCorrectConfirmationMessage()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkoutFailsWhenMissingFirstName()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:11 IST" name="checkoutFailsWhenMissingFirstName" finished-at="2025-09-06T12:50:16 IST" duration-ms="5248" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"h3[data-test='error']"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b74d078520158120d150cd24445939c, findElement {value=h3[data-test='error'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58093/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b74d078520158120d150cd24445939c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h3[data-test='error']"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8b74d078520158120d150cd24445939c, findElement {value=h3[data-test='error'], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58093/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8b74d078520158120d150cd24445939c
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.saucedemo.pages.CheckoutPage.getErrorMessage(CheckoutPage.java:142)
-at com.saucedemo.tests.TestCheckoutPage.checkoutFailsWhenMissingFirstName(TestCheckoutPage.java:117)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutFailsWhenMissingFirstName -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:16 IST" name="tearDown" finished-at="2025-09-06T12:50:18 IST" duration-ms="1676" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkoutFailsWhenMissingFirstName status=FAILURE method=TestCheckoutPage.checkoutFailsWhenMissingFirstName()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:18 IST" name="setUp" finished-at="2025-09-06T12:50:20 IST" duration-ms="1598" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@6bb75258]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:20 IST" name="checkoutShowsCorrectConfirmationMessage" finished-at="2025-09-06T12:50:25 IST" duration-ms="5142" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1511127bd8c9495c55cd9e4d34079967, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63679/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1511127bd8c9495c55cd9e4d34079967]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1511127bd8c9495c55cd9e4d34079967, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63679}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63679/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1511127bd8c9495c55cd9e4d34079967
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.saucedemo.pages.CheckoutPage.finishCheckout(CheckoutPage.java:130)
-at com.saucedemo.tests.TestCheckoutPage.checkoutShowsCorrectConfirmationMessage(TestCheckoutPage.java:159)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:22 IST" name="checkoutShowsCorrectConfirmationMessage" finished-at="2025-09-09T11:00:24 IST" duration-ms="1534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutShowsCorrectConfirmationMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:25 IST" name="tearDown" finished-at="2025-09-06T12:50:26 IST" duration-ms="1276" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:24 IST" name="tearDown" finished-at="2025-09-09T11:00:24 IST" duration-ms="349" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkoutShowsCorrectConfirmationMessage status=FAILURE method=TestCheckoutPage.checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6] output={null}]]]>
+                <![CDATA[[TestResult name=checkoutShowsCorrectConfirmationMessage status=SUCCESS method=TestCheckoutPage.checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:26 IST" name="setUp" finished-at="2025-09-06T12:50:28 IST" duration-ms="1683" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:24 IST" name="setUp" finished-at="2025-09-09T11:00:28 IST" duration-ms="3849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -787,83 +564,22 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@c260bdc]]>
+                <![CDATA[public void com.saucedemo.tests.TestCheckoutPage.completeCheckoutFlow()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:28 IST" name="completeCheckoutFlow" finished-at="2025-09-06T12:50:34 IST" duration-ms="6484" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44722fb60e04cc496ebc90a770d0cca7, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56465/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44722fb60e04cc496ebc90a770d0cca7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
-  (Session info: chrome=140.0.7339.80)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [44722fb60e04cc496ebc90a770d0cca7, findElement {value=finish, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SHIVAN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56465/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 44722fb60e04cc496ebc90a770d0cca7
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.saucedemo.pages.CheckoutPage.finishCheckout(CheckoutPage.java:130)
-at com.saucedemo.tests.TestCheckoutPage.completeCheckoutFlow(TestCheckoutPage.java:101)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:28 IST" name="completeCheckoutFlow" finished-at="2025-09-09T11:00:29 IST" duration-ms="1276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckoutFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6]" started-at="2025-09-06T12:50:34 IST" name="tearDown" finished-at="2025-09-06T12:50:36 IST" duration-ms="1365" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T11:00:29 IST" name="tearDown" finished-at="2025-09-09T11:00:30 IST" duration-ms="295" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=completeCheckoutFlow status=FAILURE method=TestCheckoutPage.completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@292b08d6] output={null}]]]>
+                <![CDATA[[TestResult name=completeCheckoutFlow status=SUCCESS method=TestCheckoutPage.completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589] output={null}]]]>
               </value>
             </param>
           </params>
@@ -872,7 +588,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
       <class name="com.saucedemo.tests.TestLogoutPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@36ebc363]" started-at="2025-09-06T12:51:01 IST" name="setUp" finished-at="2025-09-06T12:51:03 IST" duration-ms="1908" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T11:00:52 IST" name="setUp" finished-at="2025-09-09T11:00:55 IST" duration-ms="3016" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,22 +597,22 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@75e01201]]>
+                <![CDATA[public void com.saucedemo.tests.TestLogoutPage.logoutWorks() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@36ebc363]" started-at="2025-09-06T12:51:03 IST" name="logoutWorks" finished-at="2025-09-06T12:51:08 IST" duration-ms="4922" status="PASS">
+        <test-method signature="logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T11:00:55 IST" name="logoutWorks" finished-at="2025-09-09T11:00:57 IST" duration-ms="1476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutWorks -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@36ebc363]" started-at="2025-09-06T12:51:08 IST" name="tearDown" finished-at="2025-09-06T12:51:09 IST" duration-ms="910" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T11:00:57 IST" name="tearDown" finished-at="2025-09-09T11:00:57 IST" duration-ms="232" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logoutWorks status=SUCCESS method=TestLogoutPage.logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@36ebc363] output={null}]]]>
+                <![CDATA[[TestResult name=logoutWorks status=SUCCESS method=TestLogoutPage.logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241] output={null}]]]>
               </value>
             </param>
           </params>
@@ -905,7 +621,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestLogoutPage -->
       <class name="com.saucedemo.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:33 IST" name="setUp" finished-at="2025-09-06T12:48:34 IST" duration-ms="1967" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:30 IST" name="setUp" finished-at="2025-09-09T10:58:41 IST" duration-ms="10243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -914,29 +630,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@2783717b]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ErrorUservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:34 IST" name="ErrorUservalidLogin" finished-at="2025-09-06T12:48:39 IST" duration-ms="4324" status="PASS">
+        <test-method signature="allValidUsersShouldLoginSuccessfully()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:41 IST" name="allValidUsersShouldLoginSuccessfully" finished-at="2025-09-09T10:58:52 IST" duration-ms="10897" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ErrorUservalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:39 IST" name="tearDown" finished-at="2025-09-06T12:48:39 IST" duration-ms="475" status="PASS">
+        </test-method> <!-- allValidUsersShouldLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:52 IST" name="tearDown" finished-at="2025-09-09T10:58:52 IST" duration-ms="540" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ErrorUservalidLogin status=SUCCESS method=LoginPageTest.ErrorUservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=allValidUsersShouldLoginSuccessfully status=SUCCESS method=LoginPageTest.allValidUsersShouldLoginSuccessfully()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:39 IST" name="setUp" finished-at="2025-09-06T12:48:40 IST" duration-ms="1050" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:52 IST" name="setUp" finished-at="2025-09-09T10:58:56 IST" duration-ms="3654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -945,153 +661,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@76f7d241]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.invalidUserShowsError()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PerformanceglitchuservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:40 IST" name="PerformanceglitchuservalidLogin" finished-at="2025-09-06T12:48:53 IST" duration-ms="12599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PerformanceglitchuservalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:53 IST" name="tearDown" finished-at="2025-09-06T12:48:54 IST" duration-ms="649" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=PerformanceglitchuservalidLogin status=SUCCESS method=LoginPageTest.PerformanceglitchuservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:54 IST" name="setUp" finished-at="2025-09-06T12:48:55 IST" duration-ms="935" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4a335fa8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Problem_uservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:55 IST" name="Problem_uservalidLogin" finished-at="2025-09-06T12:48:59 IST" duration-ms="4105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Problem_uservalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:59 IST" name="tearDown" finished-at="2025-09-06T12:48:59 IST" duration-ms="478" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Problem_uservalidLogin status=SUCCESS method=LoginPageTest.Problem_uservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:48:59 IST" name="setUp" finished-at="2025-09-06T12:49:00 IST" duration-ms="906" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@3f363cf5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VisualuservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:00 IST" name="VisualuservalidLogin" finished-at="2025-09-06T12:49:03 IST" duration-ms="2579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisualuservalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:03 IST" name="tearDown" finished-at="2025-09-06T12:49:03 IST" duration-ms="497" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VisualuservalidLogin status=SUCCESS method=LoginPageTest.VisualuservalidLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:03 IST" name="setUp" finished-at="2025-09-06T12:49:04 IST" duration-ms="1014" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@3829ac1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="bothFieldsEmptyShowsUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:04 IST" name="bothFieldsEmptyShowsUsernameRequiredError" finished-at="2025-09-06T12:49:07 IST" duration-ms="3383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bothFieldsEmptyShowsUsernameRequiredError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:07 IST" name="tearDown" finished-at="2025-09-06T12:49:08 IST" duration-ms="549" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bothFieldsEmptyShowsUsernameRequiredError status=SUCCESS method=LoginPageTest.bothFieldsEmptyShowsUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:08 IST" name="setUp" finished-at="2025-09-06T12:49:09 IST" duration-ms="917" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@4baf352a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:09 IST" name="invalidUserShowsError" finished-at="2025-09-06T12:49:11 IST" duration-ms="1852" status="PASS">
+        <test-method signature="invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:56 IST" name="invalidUserShowsError" finished-at="2025-09-09T10:58:57 IST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserShowsError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:11 IST" name="tearDown" finished-at="2025-09-06T12:49:11 IST" duration-ms="577" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:57 IST" name="tearDown" finished-at="2025-09-09T10:58:57 IST" duration-ms="263" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidUserShowsError status=SUCCESS method=LoginPageTest.invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=invalidUserShowsError status=SUCCESS method=LoginPageTest.invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:11 IST" name="setUp" finished-at="2025-09-06T12:49:12 IST" duration-ms="1020" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:58:57 IST" name="setUp" finished-at="2025-09-09T10:59:00 IST" duration-ms="3271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1100,29 +692,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@1bb1fde8]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.lockedOutUserShowsError()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:12 IST" name="lockedOutUserShowsError" finished-at="2025-09-06T12:49:14 IST" duration-ms="2087" status="PASS">
+        <test-method signature="lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:00 IST" name="lockedOutUserShowsError" finished-at="2025-09-09T10:59:01 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUserShowsError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:14 IST" name="tearDown" finished-at="2025-09-06T12:49:15 IST" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:01 IST" name="tearDown" finished-at="2025-09-09T10:59:01 IST" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=lockedOutUserShowsError status=SUCCESS method=LoginPageTest.lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=lockedOutUserShowsError status=SUCCESS method=LoginPageTest.lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:15 IST" name="setUp" finished-at="2025-09-06T12:49:16 IST" duration-ms="971" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:01 IST" name="setUp" finished-at="2025-09-09T10:59:06 IST" duration-ms="4762" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1131,29 +723,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@15eebbff]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.testPasswordRequiredError()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="passwordRequiredErrorDisplayed()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:16 IST" name="passwordRequiredErrorDisplayed" finished-at="2025-09-06T12:49:18 IST" duration-ms="1787" status="PASS">
+        <test-method signature="testPasswordRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:06 IST" name="testPasswordRequiredError" finished-at="2025-09-09T10:59:07 IST" duration-ms="656" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- passwordRequiredErrorDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:18 IST" name="tearDown" finished-at="2025-09-06T12:49:18 IST" duration-ms="639" status="PASS">
+        </test-method> <!-- testPasswordRequiredError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:07 IST" name="tearDown" finished-at="2025-09-09T10:59:07 IST" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=passwordRequiredErrorDisplayed status=SUCCESS method=LoginPageTest.passwordRequiredErrorDisplayed()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=testPasswordRequiredError status=SUCCESS method=LoginPageTest.testPasswordRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:18 IST" name="setUp" finished-at="2025-09-06T12:49:19 IST" duration-ms="982" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:07 IST" name="setUp" finished-at="2025-09-09T10:59:11 IST" duration-ms="4021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1162,29 +754,29 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@22d6f11]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.testUsernameRequiredError()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="usernameRequiredErrorDisplayed()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:19 IST" name="usernameRequiredErrorDisplayed" finished-at="2025-09-06T12:49:21 IST" duration-ms="1661" status="PASS">
+        <test-method signature="testUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:11 IST" name="testUsernameRequiredError" finished-at="2025-09-09T10:59:12 IST" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usernameRequiredErrorDisplayed -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:21 IST" name="tearDown" finished-at="2025-09-06T12:49:22 IST" duration-ms="630" status="PASS">
+        </test-method> <!-- testUsernameRequiredError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:12 IST" name="tearDown" finished-at="2025-09-09T10:59:12 IST" duration-ms="335" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=usernameRequiredErrorDisplayed status=SUCCESS method=LoginPageTest.usernameRequiredErrorDisplayed()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=testUsernameRequiredError status=SUCCESS method=LoginPageTest.testUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,[Ljava.lang.Object;)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:22 IST" name="setUp" finished-at="2025-09-06T12:49:23 IST" duration-ms="947" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:12 IST" name="setUp" finished-at="2025-09-09T10:59:16 IST" duration-ms="4363" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1193,22 +785,22 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[Ljava.lang.Object;@30990c1b]]>
+                <![CDATA[public void com.saucedemo.tests.LoginPageTest.validLogin()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:23 IST" name="validLogin" finished-at="2025-09-06T12:49:25 IST" duration-ms="2511" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:16 IST" name="validLogin" finished-at="2025-09-09T10:59:17 IST" duration-ms="932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194]" started-at="2025-09-06T12:49:25 IST" name="tearDown" finished-at="2025-09-06T12:49:26 IST" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T10:59:17 IST" name="tearDown" finished-at="2025-09-09T10:59:18 IST" duration-ms="384" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginPageTest.validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@3270d194] output={null}]]]>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginPageTest.validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125] output={null}]]]>
               </value>
             </param>
           </params>

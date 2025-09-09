@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 public class ExtentManager {
     private static ExtentReports extent;
 
-    public synchronized static ExtentReports getInstance() {
+    public static ExtentReports getInstance() {
         if (extent == null) {
             String reportPath = Paths.get("reports", "extent-reports", "ExtentReport.html").toString();
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
@@ -17,3 +17,4 @@ public class ExtentManager {
         return extent;
     }
 }
+

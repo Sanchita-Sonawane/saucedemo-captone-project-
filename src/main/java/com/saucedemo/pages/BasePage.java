@@ -11,7 +11,12 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public String getTitle() { return driver.getTitle(); }
+    public String getTitle() { 
+    	return driver.getTitle(); 
+    	}
 
-    public String getUrl() { return driver.getCurrentUrl(); }
+    public String getUrl() { 
+    	return driver.getCurrentUrl(); 
+    	}
 }
+

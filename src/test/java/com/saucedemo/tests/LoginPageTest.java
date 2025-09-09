@@ -8,47 +8,47 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginPageTest extends BaseTest {
+	
+	
     @Test
     public void validLogin() {
-        LoginPage lp = new LoginPage(driver).navigate();
-        lp.login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        HomePage hp = new HomePage(driver);
-        Assert.assertEquals(hp.getHeader(), "Products");
+    	LoginPage loginpage = new LoginPage(driver).navigate();
+        loginpage.login(DataSet.STANDARD_USER, DataSet.PASSWORD);
+        HomePage homepage = new HomePage(driver);
+        Assert.assertEquals(homepage.getHeader(), "Products");
     }
 
     @Test
     public void lockedOutUserShowsError() {
-        LoginPage lp = new LoginPage(driver).navigate();
-        lp.login(DataSet.LOCKED_OUT_USER, DataSet.PASSWORD);
-        Assert.assertTrue(lp.getError().toLowerCase().contains("locked"));
+    	LoginPage loginpage = new LoginPage(driver).navigate();
+        loginpage.login(DataSet.LOCKED_OUT_USER, DataSet.PASSWORD);
+        Assert.assertTrue(loginpage.getError().toLowerCase().contains("locked"));
     }
 
     @Test
-    public void testUsernameOrPasswordRequiredErrors() {
-        LoginPage lp = new LoginPage(driver).navigate();
+    public void testPasswordRequiredError() {
+    	LoginPage loginpage = new LoginPage(driver).navigate();
+        loginpage.login(DataSet.STANDARD_USER, "");
+        String error = loginpage.getError();
 
-        lp.login(DataSet.STANDARD_USER, "");
-        String error1 = lp.getError();
-        boolean isPasswordErrorDisplayed = error1.contains("Password is required");
+        Assert.assertTrue(error.contains("Password is required"),"Expected 'Password is required' error message" );
+    }
 
-        lp.navigate();
-        lp.login("", DataSet.PASSWORD);
-        String error2 = lp.getError();
-        boolean isUsernameErrorDisplayed = error2.contains("Username is required");
+    @Test
+    public void testUsernameRequiredError() {
+    	LoginPage loginpage = new LoginPage(driver).navigate();
+        loginpage.login("", DataSet.PASSWORD);
+        String error = loginpage.getError();
 
- 
-        Assert.assertTrue(
-            isPasswordErrorDisplayed || isUsernameErrorDisplayed,
-            "Expected either 'Password is required' or 'Username is required' error to be displayed"
-        );
+        Assert.assertTrue(error.contains("Username is required"),"Expected 'Username is required' error message");
     }
 
 
     @Test
     public void invalidUserShowsError() {
-        LoginPage lp = new LoginPage(driver).navigate();
-        lp.login("invalid_user", "invalid_pass");
-        String error = lp.getError();
+    	LoginPage loginpage = new LoginPage(driver).navigate();
+        loginpage.login("invalid_user", "invalid_pass");
+        String error = loginpage.getError();
         Assert.assertTrue(error.contains("do not match"), "Expected invalid credentials error");
     }
 
@@ -67,16 +67,14 @@ public class LoginPageTest extends BaseTest {
 
             System.out.println("Testing login for: " + userType);
 
-            // Step 1: Login
             LoginPage loginPage = new LoginPage(driver).navigate();
             loginPage.login(username, DataSet.PASSWORD);
 
-            // Step 2: Verify successful login
             HomePage homePage = new HomePage(driver);
             Assert.assertEquals(homePage.getHeader(), "Products", userType + " login failed");
 
-            // Step 3: Logout before next user
             new LogoutPage(driver).logout();
         }
     }
 }
+

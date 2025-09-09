@@ -8,7 +8,9 @@ public class AddToCartPage extends BasePage {
     private By cartLink = By.className("shopping_cart_link");
     private By removeBackpack = By.id("remove-sauce-labs-backpack");
 
-    public AddToCartPage(WebDriver driver) { super(driver); }
+    public AddToCartPage(WebDriver driver) {
+    	super(driver); 
+    	}
 
     public void addItem() {
         driver.findElement(addBackpack).click();
@@ -34,3 +36,4 @@ public class AddToCartPage extends BasePage {
         return driver.findElements(removeBackpack).size() > 0;
     }
 }
+

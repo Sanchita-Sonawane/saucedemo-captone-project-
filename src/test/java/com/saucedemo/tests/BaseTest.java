@@ -5,6 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.saucedemo.utils.ExtentManager;
 import com.saucedemo.utils.DriverSetup;
+import com.saucedemo.utils.DataSet;
 import com.saucedemo.utils.ScreenshotUtil;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
@@ -27,6 +28,7 @@ public class BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void setUp(@Optional("chrome") String browser, Method method) {
         driver = DriverSetup.getDriver(browser);
+        driver.get(DataSet.BASE_URL);
         driver.manage().window().maximize();
 
         test = extent.createTest(method.getName());
@@ -54,7 +56,7 @@ public class BaseTest {
         }
 
         DriverSetup.quitDriver();
-        driver = null;  // avoid stale references
+        driver = null;
     }
 
     @AfterSuite(alwaysRun = true)
@@ -64,3 +66,5 @@ public class BaseTest {
         }
     }
 }
+
+

@@ -26,11 +26,6 @@ public class TestCartBadgeCountValidationPage extends BaseTest {
         Assert.assertEquals(page.getBadgeCount(), "2");
     }
 
-    /*@Test
-    public void badgeShowsZeroWhenNoItemsAdded() {
-        Assert.assertEquals(page.getBadgeCount(), "0");
-    }*/
-
     @Test
     public void badgeIncrementsWhenAddingItems() {
         page.addBackpackOnly();
@@ -47,10 +42,6 @@ public class TestCartBadgeCountValidationPage extends BaseTest {
         Assert.assertEquals(page.getBadgeCount(), "1");
     }
 
-    /*@Test
-    public void badgeDoesNotIncrementForSameItem() {
-        page.addBackpackOnly();
-        page.addBackpackOnly(); // Shouldn't increase badge count
-        Assert.assertEquals(page.getBadgeCount(), "1");
-    }*/
+   
 }
+

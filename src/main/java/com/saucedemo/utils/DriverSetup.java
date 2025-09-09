@@ -10,46 +10,45 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverSetup {
-
-    // Thread-safe WebDriver storage
-    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	private static WebDriver driver;
 
     public static WebDriver getDriver(String browser) {
-        if (driver.get() == null) {
+        if (driver == null) {
             switch (browser.toLowerCase()) {
                 case "firefox":
-                    driver.set(new FirefoxDriver());
+                    driver = new FirefoxDriver();
                     break;
 
                 case "edge":
-                    driver.set(new EdgeDriver());
+                    driver = new EdgeDriver();
                     break;
 
                 case "chrome":
                 default:
                     ChromeOptions options = new ChromeOptions();
 
-                    // ✅ Disable password manager
+                    // Disable password manager
                     Map<String, Object> prefs = new HashMap<>();
                     prefs.put("credentials_enable_service", false);
                     prefs.put("profile.password_manager_enabled", false);
                     options.setExperimentalOption("prefs", prefs);
 
-                    // Optional: Incognito to avoid caching saved logins
+                    // Incognito mode to avoid caching saved logins
                     options.addArguments("--incognito");
 
-                    driver.set(new ChromeDriver(options));
+                    driver = new ChromeDriver(options);
                     break;
             }
         }
 
-        return driver.get();
+        return driver;
     }
 
     public static void quitDriver() {
-        if (driver.get() != null) {
-            driver.get().quit();
-            driver.remove(); // ✅ Clears ThreadLocal to prevent memory leaks
+        if (driver != null) {
+            driver.quit();
+            driver = null; 
         }
     }
 }
+

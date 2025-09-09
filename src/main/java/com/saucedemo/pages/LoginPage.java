@@ -9,7 +9,9 @@ public class LoginPage extends BasePage {
     private By loginBtn = By.id("login-button");
     private By error = By.cssSelector("[data-test='error']");
 
-    public LoginPage(WebDriver driver) { super(driver); }
+    public LoginPage(WebDriver driver) { 
+    	super(driver); 
+    	}
 
     public LoginPage navigate() {
         driver.get("https://www.saucedemo.com/");
@@ -25,7 +27,7 @@ public class LoginPage extends BasePage {
     }
     
     public boolean isLoginFormDisplayed() {
-        return driver.findElement(By.id("login-button")).isDisplayed(); // Adjust selector as needed
+        return driver.findElement(By.id("login-button")).isDisplayed();
     }
 
     public String getError() {
@@ -36,3 +38,4 @@ public class LoginPage extends BasePage {
         		}
     }
 }
+

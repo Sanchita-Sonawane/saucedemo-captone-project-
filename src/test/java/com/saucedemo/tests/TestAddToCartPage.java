@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 public class TestAddToCartPage extends BaseTest {
-   
+	 //AddToCartPage atc = new AddToCartPage(driver);
     @BeforeMethod
     public void loginBeforeEachTest() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
@@ -19,8 +19,8 @@ public class TestAddToCartPage extends BaseTest {
     public void addItemUpdatesCartBadge() {
         AddToCartPage atc = new AddToCartPage(driver);
         atc.addItem();
-        HomePage hp = new HomePage(driver);
-        Assert.assertEquals(hp.getCartBadgeCount(), "1", "Cart badge should be 1 after adding an item.");
+        HomePage homepage = new HomePage(driver);
+        Assert.assertEquals(homepage.getCartBadgeCount(), "1", "Cart badge should be 1 after adding an item.");
     }
 
     @Test
@@ -28,8 +28,8 @@ public class TestAddToCartPage extends BaseTest {
         AddToCartPage atc = new AddToCartPage(driver);
         atc.addItem();
         atc.removeItem();
-        HomePage hp = new HomePage(driver);
-        Assert.assertEquals(hp.getCartBadgeCount(), "0", "Cart badge should be 0 after removing the item.");
+        HomePage homepage = new HomePage(driver);
+        Assert.assertEquals(homepage.getCartBadgeCount(), "0", "Cart badge should be 0 after removing the item.");
     }
 
     @Test
@@ -68,3 +68,4 @@ public class TestAddToCartPage extends BaseTest {
     }
 
 }
+

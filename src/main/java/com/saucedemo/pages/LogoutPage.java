@@ -20,16 +20,14 @@ public class LogoutPage extends BasePage {
     }
 
     public void logout() {
-        // Open the menu
         WebElement menuBtn = wait.until(ExpectedConditions.elementToBeClickable(menu));
         menuBtn.click();
 
-        // Ensure the logout button is visible before clicking
         wait.until(ExpectedConditions.visibilityOfElementLocated(logout));
         WebElement logoutBtn = wait.until(ExpectedConditions.elementToBeClickable(logout));
         logoutBtn.click();
 
-        // Wait for the login button to confirm logout
         wait.until(ExpectedConditions.visibilityOfElementLocated(loginButton));
     }
 }
+

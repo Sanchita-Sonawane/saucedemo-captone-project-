@@ -22,8 +22,7 @@ public class HomePage extends BasePage {
     	}
 
     public void logout() { 
-    	openMenu(); 
-    	driver.findElement(logout).click(); 
+    	openMenu(); driver.findElement(logout).click(); 
     	}
 
     public String getCartBadgeCount() {

@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,   22 passed</span>
+                    <span class="method-stats">24 methods,   24 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="addItemUpdatesCartBadge">addItemUpdatesCartBadge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="addToCartButtonChangesToRemove">addToCartButtonChangesToRemove</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,11 +148,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="cartBadgeNotVisibleWhenEmpty">cartBadgeNotVisibleWhenEmpty</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="cartLinkNavigatesToCartPage">cartLinkNavigatesToCartPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -178,6 +178,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="removeFromCartButtonChangesToAddToCart">removeFromCartButtonChangesToAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.TestAddToCartPage" class="method navigator-link" hash-for-method="removeItemUpdatesCartBadgeToZero">removeItemUpdatesCartBadgeToZero</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -203,7 +208,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginPageTest" class="method navigator-link" hash-for-method="testUsernameOrPasswordRequiredErrors">testUsernameOrPasswordRequiredErrors</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginPageTest" class="method navigator-link" hash-for-method="testPasswordRequiredError">testPasswordRequiredError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Test_Suite" title="com.saucedemo.tests.LoginPageTest" class="method navigator-link" hash-for-method="testUsernameRequiredError">testUsernameRequiredError</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -303,6 +313,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="addToCartButtonChangesToRemove">
+                  </a> <!-- addToCartButtonChangesToRemove -->
+                  <span class="method-name">addToCartButtonChangesToRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="cartBadgeAccumulatesItems">
                   </a> <!-- cartBadgeAccumulatesItems -->
                   <span class="method-name">cartBadgeAccumulatesItems</span>
@@ -310,16 +327,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="cartBadgeNotVisibleWhenEmpty">
-                  </a> <!-- cartBadgeNotVisibleWhenEmpty -->
-                  <span class="method-name">cartBadgeNotVisibleWhenEmpty</span>
+                  <a name="cartLinkNavigatesToCartPage">
+                  </a> <!-- cartLinkNavigatesToCartPage -->
+                  <span class="method-name">cartLinkNavigatesToCartPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="cartLinkNavigatesToCartPage">
-                  </a> <!-- cartLinkNavigatesToCartPage -->
-                  <span class="method-name">cartLinkNavigatesToCartPage</span>
+                  <a name="removeFromCartButtonChangesToAddToCart">
+                  </a> <!-- removeFromCartButtonChangesToAddToCart -->
+                  <span class="method-name">removeFromCartButtonChangesToAddToCart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -411,9 +428,16 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testUsernameOrPasswordRequiredErrors">
-                  </a> <!-- testUsernameOrPasswordRequiredErrors -->
-                  <span class="method-name">testUsernameOrPasswordRequiredErrors</span>
+                  <a name="testPasswordRequiredError">
+                  </a> <!-- testPasswordRequiredError -->
+                  <span class="method-name">testPasswordRequiredError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUsernameRequiredError">
+                  </a> <!-- testUsernameRequiredError -->
+                  <span class="method-name">testUsernameRequiredError</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -483,100 +507,108 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(24);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'allValidUsersShouldLoginSuccessfully')
 data.setCell(0, 2, 'com.saucedemo.tests.LoginPageTest')
-data.setCell(0, 3, 12265);
+data.setCell(0, 3, 14655);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkoutShowsCorrectConfirmationMessage')
-data.setCell(1, 2, 'com.saucedemo.tests.TestCheckoutPage')
-data.setCell(1, 3, 2706);
+data.setCell(1, 1, 'logoutWorks')
+data.setCell(1, 2, 'com.saucedemo.tests.TestLogoutPage')
+data.setCell(1, 3, 1688);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logoutWorks')
-data.setCell(2, 2, 'com.saucedemo.tests.TestLogoutPage')
-data.setCell(2, 3, 2672);
+data.setCell(2, 1, 'checkoutShowsCorrectConfirmationMessage')
+data.setCell(2, 2, 'com.saucedemo.tests.TestCheckoutPage')
+data.setCell(2, 3, 1672);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'completeCheckoutFlow')
 data.setCell(3, 2, 'com.saucedemo.tests.TestCheckoutPage')
-data.setCell(3, 3, 2622);
+data.setCell(3, 3, 1653);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validLogin')
-data.setCell(4, 2, 'com.saucedemo.tests.LoginPageTest')
-data.setCell(4, 3, 2608);
+data.setCell(4, 1, 'cannotCheckoutWithEmptyCart')
+data.setCell(4, 2, 'com.saucedemo.tests.TestCheckoutPage')
+data.setCell(4, 3, 1616);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'cannotCheckoutWithEmptyCart')
+data.setCell(5, 1, 'cancelCheckoutShouldReturnToCart')
 data.setCell(5, 2, 'com.saucedemo.tests.TestCheckoutPage')
-data.setCell(5, 3, 2576);
+data.setCell(5, 3, 1602);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testUsernameOrPasswordRequiredErrors')
+data.setCell(6, 1, 'lockedOutUserShowsError')
 data.setCell(6, 2, 'com.saucedemo.tests.LoginPageTest')
-data.setCell(6, 3, 2333);
+data.setCell(6, 3, 1179);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'cancelCheckoutShouldReturnToCart')
-data.setCell(7, 2, 'com.saucedemo.tests.TestCheckoutPage')
-data.setCell(7, 3, 2278);
+data.setCell(7, 1, 'testPasswordRequiredError')
+data.setCell(7, 2, 'com.saucedemo.tests.LoginPageTest')
+data.setCell(7, 3, 1132);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'sortByPriceLowToHigh')
-data.setCell(8, 2, 'com.saucedemo.tests.TestSortingProductPage')
-data.setCell(8, 3, 2161);
+data.setCell(8, 1, 'validLogin')
+data.setCell(8, 2, 'com.saucedemo.tests.LoginPageTest')
+data.setCell(8, 3, 1087);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'sortByNameZtoA')
+data.setCell(9, 1, 'sortByPriceLowToHigh')
 data.setCell(9, 2, 'com.saucedemo.tests.TestSortingProductPage')
-data.setCell(9, 3, 2087);
+data.setCell(9, 3, 1085);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'sortByNameAtoZ')
+data.setCell(10, 1, 'sortByPriceHighToLow')
 data.setCell(10, 2, 'com.saucedemo.tests.TestSortingProductPage')
-data.setCell(10, 3, 2083);
+data.setCell(10, 3, 1041);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'invalidUserShowsError')
-data.setCell(11, 2, 'com.saucedemo.tests.LoginPageTest')
-data.setCell(11, 3, 2051);
+data.setCell(11, 1, 'sortByNameAtoZ')
+data.setCell(11, 2, 'com.saucedemo.tests.TestSortingProductPage')
+data.setCell(11, 3, 998);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'sortByPriceHighToLow')
+data.setCell(12, 1, 'sortByNameZtoA')
 data.setCell(12, 2, 'com.saucedemo.tests.TestSortingProductPage')
-data.setCell(12, 3, 2025);
+data.setCell(12, 3, 952);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'lockedOutUserShowsError')
+data.setCell(13, 1, 'invalidUserShowsError')
 data.setCell(13, 2, 'com.saucedemo.tests.LoginPageTest')
-data.setCell(13, 3, 1977);
+data.setCell(13, 3, 942);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'badgeUpdatesAfterRemovingItem')
-data.setCell(14, 2, 'com.saucedemo.tests.TestCartBadgeCountValidationPage')
-data.setCell(14, 3, 434);
+data.setCell(14, 1, 'removeItemUpdatesCartBadgeToZero')
+data.setCell(14, 2, 'com.saucedemo.tests.TestAddToCartPage')
+data.setCell(14, 3, 853);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'badgeShowsTwoWhenAddingTwoItems')
-data.setCell(15, 2, 'com.saucedemo.tests.TestCartBadgeCountValidationPage')
-data.setCell(15, 3, 377);
+data.setCell(15, 1, 'testUsernameRequiredError')
+data.setCell(15, 2, 'com.saucedemo.tests.LoginPageTest')
+data.setCell(15, 3, 794);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'badgeIncrementsWhenAddingItems')
+data.setCell(16, 1, 'badgeUpdatesAfterRemovingItem')
 data.setCell(16, 2, 'com.saucedemo.tests.TestCartBadgeCountValidationPage')
-data.setCell(16, 3, 358);
+data.setCell(16, 3, 493);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'cartBadgeAccumulatesItems')
-data.setCell(17, 2, 'com.saucedemo.tests.TestAddToCartPage')
-data.setCell(17, 3, 300);
+data.setCell(17, 1, 'badgeIncrementsWhenAddingItems')
+data.setCell(17, 2, 'com.saucedemo.tests.TestCartBadgeCountValidationPage')
+data.setCell(17, 3, 489);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'removeItemUpdatesCartBadgeToZero')
+data.setCell(18, 1, 'removeFromCartButtonChangesToAddToCart')
 data.setCell(18, 2, 'com.saucedemo.tests.TestAddToCartPage')
-data.setCell(18, 3, 282);
+data.setCell(18, 3, 487);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'cartLinkNavigatesToCartPage')
-data.setCell(19, 2, 'com.saucedemo.tests.TestAddToCartPage')
-data.setCell(19, 3, 268);
+data.setCell(19, 1, 'badgeShowsTwoWhenAddingTwoItems')
+data.setCell(19, 2, 'com.saucedemo.tests.TestCartBadgeCountValidationPage')
+data.setCell(19, 3, 463);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'addItemUpdatesCartBadge')
+data.setCell(20, 1, 'cartLinkNavigatesToCartPage')
 data.setCell(20, 2, 'com.saucedemo.tests.TestAddToCartPage')
-data.setCell(20, 3, 169);
+data.setCell(20, 3, 431);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'cartBadgeNotVisibleWhenEmpty')
+data.setCell(21, 1, 'cartBadgeAccumulatesItems')
 data.setCell(21, 2, 'com.saucedemo.tests.TestAddToCartPage')
-data.setCell(21, 3, 25);
+data.setCell(21, 3, 384);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addItemUpdatesCartBadge')
+data.setCell(22, 2, 'com.saucedemo.tests.TestAddToCartPage')
+data.setCell(22, 3, 288);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'addToCartButtonChangesToRemove')
+data.setCell(23, 2, 'com.saucedemo.tests.TestAddToCartPage')
+data.setCell(23, 3, 288);
 window.suiteTableData['SauceDemo_Test_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-SauceDemo_Test_Suite">
               </div> <!-- times-div-SauceDemo_Test_Suite -->
             </div> <!-- times-div -->
@@ -595,16 +627,16 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.tests.TestCartBadgeCountValidationPage</span>
+              <span class="ignored-class-name">com.saucedemo.tests.TestSortingProductPage</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.tests.TestSortingProductPage</span>
+              <span class="ignored-class-name">com.saucedemo.tests.TestCartBadgeCountValidationPage</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
@@ -615,9 +647,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.saucedemo.tests.TestAddToCartPage</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -631,7 +663,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.tests.TestLogoutPage</span>
+              <span class="ignored-class-name">com.saucedemo.tests.LoginPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
@@ -640,11 +672,11 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.tests.LoginPageTest</span>
+              <span class="ignored-class-name">com.saucedemo.tests.TestLogoutPage</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -666,321 +698,349 @@ return data;
               <div class="chronological-class-name">com.saucedemo.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully())</span>
-                <span class="method-start">571 ms</span>
+                <span class="method-start">985 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">allValidUsersShouldLoginSuccessfully</span>
-                <span class="method-start">14465 ms</span>
+                <span class="method-start">8186 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=allValidUsersShouldLoginSuccessfully status=SUCCESS method=LoginPageTest.allValidUs...)</span>
-                <span class="method-start">26733 ms</span>
+                <span class="method-start">22858 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.invalidUserShowsError())</span>
-                <span class="method-start">27407 ms</span>
+                <span class="method-start">23929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidUserShowsError</span>
-                <span class="method-start">30650 ms</span>
+                <span class="method-start">29093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=invalidUserShowsError status=SUCCESS method=LoginPageTest.invalidUserShowsError()[p...)</span>
-                <span class="method-start">32706 ms</span>
+                <span class="method-start">30036 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.lockedOutUserShowsError())</span>
-                <span class="method-start">33411 ms</span>
+                <span class="method-start">31785 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">lockedOutUserShowsError</span>
-                <span class="method-start">37056 ms</span>
+                <span class="method-start">36896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=lockedOutUserShowsError status=SUCCESS method=LoginPageTest.lockedOutUserShowsError...)</span>
-                <span class="method-start">39033 ms</span>
+                <span class="method-start">38083 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.testUsernameOrPasswordRequiredErrors())</span>
-                <span class="method-start">39554 ms</span>
+                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.testPasswordRequiredError())</span>
+                <span class="method-start">39585 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testUsernameOrPasswordRequiredErrors</span>
-                <span class="method-start">42743 ms</span>
+                <span class="method-name">testPasswordRequiredError</span>
+                <span class="method-start">44844 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testUsernameOrPasswordRequiredErrors status=SUCCESS method=LoginPageTest.testUserna...)</span>
-                <span class="method-start">45078 ms</span>
+                <span class="method-name">tearDown([TestResult name=testPasswordRequiredError status=SUCCESS method=LoginPageTest.testPasswordRequiredE...)</span>
+                <span class="method-start">45978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.testUsernameRequiredError())</span>
+                <span class="method-start">47263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUsernameRequiredError</span>
+                <span class="method-start">52237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testUsernameRequiredError status=SUCCESS method=LoginPageTest.testUsernameRequiredE...)</span>
+                <span class="method-start">53033 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.LoginPageTest.validLogin())</span>
-                <span class="method-start">45540 ms</span>
+                <span class="method-start">53665 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validLogin</span>
-                <span class="method-start">48404 ms</span>
+                <span class="method-start">59318 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=validLogin status=SUCCESS method=LoginPageTest.validLogin()[pri:0, instance:com.sau...)</span>
-                <span class="method-start">51017 ms</span>
+                <span class="method-start">60410 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.TestAddToCartPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.addItemUpdatesCartBadge())</span>
-                <span class="method-start">51999 ms</span>
+                <span class="method-start">61327 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginBeforeEachTest</span>
-                <span class="method-start">55715 ms</span>
+                <span class="method-start">67304 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addItemUpdatesCartBadge</span>
-                <span class="method-start">57597 ms</span>
+                <span class="method-start">68322 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=addItemUpdatesCartBadge status=SUCCESS method=TestAddToCartPage.addItemUpdatesCartB...)</span>
-                <span class="method-start">57767 ms</span>
+                <span class="method-start">68610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.addToCartButtonChangesToRemove())</span>
+                <span class="method-start">69324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginBeforeEachTest</span>
+                <span class="method-start">75283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCartButtonChangesToRemove</span>
+                <span class="method-start">76465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addToCartButtonChangesToRemove status=SUCCESS method=TestAddToCartPage.addToCartBut...)</span>
+                <span class="method-start">76755 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.cartBadgeAccumulatesItems())</span>
-                <span class="method-start">59300 ms</span>
+                <span class="method-start">78404 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginBeforeEachTest</span>
-                <span class="method-start">62625 ms</span>
+                <span class="method-start">84800 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cartBadgeAccumulatesItems</span>
-                <span class="method-start">64360 ms</span>
+                <span class="method-start">85806 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=cartBadgeAccumulatesItems status=SUCCESS method=TestAddToCartPage.cartBadgeAccumula...)</span>
-                <span class="method-start">64660 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.cartBadgeNotVisibleWhenEmpty())</span>
-                <span class="method-start">65300 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">loginBeforeEachTest</span>
-                <span class="method-start">68404 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">cartBadgeNotVisibleWhenEmpty</span>
-                <span class="method-start">70517 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=cartBadgeNotVisibleWhenEmpty status=SUCCESS method=TestAddToCartPage.cartBadgeNotVi...)</span>
-                <span class="method-start">70546 ms</span>
+                <span class="method-start">86192 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.cartLinkNavigatesToCartPage())</span>
-                <span class="method-start">71288 ms</span>
+                <span class="method-start">87818 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginBeforeEachTest</span>
-                <span class="method-start">74238 ms</span>
+                <span class="method-start">93680 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cartLinkNavigatesToCartPage</span>
-                <span class="method-start">76012 ms</span>
+                <span class="method-start">95025 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=cartLinkNavigatesToCartPage status=SUCCESS method=TestAddToCartPage.cartLinkNavigat...)</span>
-                <span class="method-start">76281 ms</span>
+                <span class="method-start">95459 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.removeItemUpdatesCartBadgeToZero())</span>
-                <span class="method-start">76712 ms</span>
+                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.removeFromCartButtonChangesToAddToCart())</span>
+                <span class="method-start">96354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginBeforeEachTest</span>
-                <span class="method-start">79811 ms</span>
+                <span class="method-start">102203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeFromCartButtonChangesToAddToCart</span>
+                <span class="method-start">103291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeFromCartButtonChangesToAddToCart status=SUCCESS method=TestAddToCartPage.remo...)</span>
+                <span class="method-start">103778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestAddToCartPage.removeItemUpdatesCartBadgeToZero())</span>
+                <span class="method-start">104367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginBeforeEachTest</span>
+                <span class="method-start">109523 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeItemUpdatesCartBadgeToZero</span>
-                <span class="method-start">81687 ms</span>
+                <span class="method-start">110499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=removeItemUpdatesCartBadgeToZero status=SUCCESS method=TestAddToCartPage.removeItem...)</span>
-                <span class="method-start">81970 ms</span>
+                <span class="method-start">111353 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.TestCartBadgeCountValidationPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingIt...)</span>
-                <span class="method-start">83793 ms</span>
+                <span class="method-start">112546 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginAndSetup</span>
-                <span class="method-start">86642 ms</span>
+                <span class="method-start">117721 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">badgeIncrementsWhenAddingItems</span>
-                <span class="method-start">88563 ms</span>
+                <span class="method-start">118951 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=badgeIncrementsWhenAddingItems status=SUCCESS method=TestCartBadgeCountValidationPa...)</span>
-                <span class="method-start">88922 ms</span>
+                <span class="method-start">119442 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoI...)</span>
-                <span class="method-start">89535 ms</span>
+                <span class="method-start">120126 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginAndSetup</span>
-                <span class="method-start">92476 ms</span>
+                <span class="method-start">125004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">badgeShowsTwoWhenAddingTwoItems</span>
-                <span class="method-start">94404 ms</span>
+                <span class="method-start">125729 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=badgeShowsTwoWhenAddingTwoItems status=SUCCESS method=TestCartBadgeCountValidationP...)</span>
-                <span class="method-start">94782 ms</span>
+                <span class="method-start">126193 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingIt...)</span>
-                <span class="method-start">95426 ms</span>
+                <span class="method-start">126868 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">loginAndSetup</span>
-                <span class="method-start">98749 ms</span>
+                <span class="method-start">131565 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">badgeUpdatesAfterRemovingItem</span>
-                <span class="method-start">100580 ms</span>
+                <span class="method-start">132484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=badgeUpdatesAfterRemovingItem status=SUCCESS method=TestCartBadgeCountValidationPag...)</span>
-                <span class="method-start">101014 ms</span>
+                <span class="method-start">132978 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.TestCheckoutPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCheckoutPage.cancelCheckoutShouldReturnToCart())</span>
-                <span class="method-start">101653 ms</span>
+                <span class="method-start">133596 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cancelCheckoutShouldReturnToCart</span>
-                <span class="method-start">106000 ms</span>
+                <span class="method-start">138272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=cancelCheckoutShouldReturnToCart status=SUCCESS method=TestCheckoutPage.cancelCheck...)</span>
-                <span class="method-start">108285 ms</span>
+                <span class="method-start">139876 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCheckoutPage.cannotCheckoutWithEmptyCart())</span>
-                <span class="method-start">108839 ms</span>
+                <span class="method-start">140370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cannotCheckoutWithEmptyCart</span>
-                <span class="method-start">111648 ms</span>
+                <span class="method-start">144636 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=cannotCheckoutWithEmptyCart status=SUCCESS method=TestCheckoutPage.cannotCheckoutWi...)</span>
-                <span class="method-start">114225 ms</span>
+                <span class="method-start">146253 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCheckoutPage.checkoutShowsCorrectConfirmationMessage())</span>
-                <span class="method-start">114690 ms</span>
+                <span class="method-start">146811 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkoutShowsCorrectConfirmationMessage</span>
-                <span class="method-start">118265 ms</span>
+                <span class="method-start">150780 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkoutShowsCorrectConfirmationMessage status=SUCCESS method=TestCheckoutPage.chec...)</span>
-                <span class="method-start">120971 ms</span>
+                <span class="method-start">152453 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestCheckoutPage.completeCheckoutFlow())</span>
-                <span class="method-start">121455 ms</span>
+                <span class="method-start">152904 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">completeCheckoutFlow</span>
-                <span class="method-start">124569 ms</span>
+                <span class="method-start">157348 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=completeCheckoutFlow status=SUCCESS method=TestCheckoutPage.completeCheckoutFlow()[...)</span>
-                <span class="method-start">127192 ms</span>
+                <span class="method-start">159002 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.TestSortingProductPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestSortingProductPage.sortByNameAtoZ())</span>
-                <span class="method-start">127650 ms</span>
+                <span class="method-start">159511 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sortByNameAtoZ</span>
-                <span class="method-start">130611 ms</span>
+                <span class="method-start">163416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=sortByNameAtoZ status=SUCCESS method=TestSortingProductPage.sortByNameAtoZ()[pri:0,...)</span>
-                <span class="method-start">132694 ms</span>
+                <span class="method-start">164416 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestSortingProductPage.sortByNameZtoA())</span>
-                <span class="method-start">133209 ms</span>
+                <span class="method-start">164917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sortByNameZtoA</span>
-                <span class="method-start">136239 ms</span>
+                <span class="method-start">168963 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=sortByNameZtoA status=SUCCESS method=TestSortingProductPage.sortByNameZtoA()[pri:0,...)</span>
-                <span class="method-start">138326 ms</span>
+                <span class="method-start">169916 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestSortingProductPage.sortByPriceHighToLow())</span>
-                <span class="method-start">138931 ms</span>
+                <span class="method-start">170454 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sortByPriceHighToLow</span>
-                <span class="method-start">141850 ms</span>
+                <span class="method-start">174460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=sortByPriceHighToLow status=SUCCESS method=TestSortingProductPage.sortByPriceHighTo...)</span>
-                <span class="method-start">143875 ms</span>
+                <span class="method-start">175502 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestSortingProductPage.sortByPriceLowToHigh())</span>
-                <span class="method-start">144450 ms</span>
+                <span class="method-start">176063 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sortByPriceLowToHigh</span>
-                <span class="method-start">147304 ms</span>
+                <span class="method-start">180147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=sortByPriceLowToHigh status=SUCCESS method=TestSortingProductPage.sortByPriceLowToH...)</span>
-                <span class="method-start">149465 ms</span>
+                <span class="method-start">181234 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.TestLogoutPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, public void com.saucedemo.tests.TestLogoutPage.logoutWorks() throws java.lang.InterruptedExc...)</span>
-                <span class="method-start">150011 ms</span>
+                <span class="method-start">181782 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logoutWorks</span>
-                <span class="method-start">152951 ms</span>
+                <span class="method-start">185770 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=logoutWorks status=SUCCESS method=TestLogoutPage.logoutWorks()[pri:0, instance:com....)</span>
-                <span class="method-start">155623 ms</span>
+                <span class="method-start">187459 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.tests.BaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">156145 ms</span>
+                <span class="method-start">187990 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

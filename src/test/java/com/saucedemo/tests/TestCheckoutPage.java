@@ -96,27 +96,12 @@ public class TestCheckoutPage extends BaseTest {
         CheckoutPage cp = new CheckoutPage(driver);
         cp.openCart();
         cp.startCheckout();
-        cp.fillDetails("John", "Doe", "12345");
+        cp.fillDetails("Seeta", "Rai", "12345");
         cp.continueCheckout();
         cp.finishCheckout();
 
         Assert.assertTrue(cp.getConfirmation().toLowerCase().contains("thank you"));
     }
-
-    /*@Test
-    public void checkoutFailsWhenMissingFirstName() {
-        new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        AddToCartPage atc = new AddToCartPage(driver);
-        atc.addItem();
-        CheckoutPage cp = new CheckoutPage(driver);
-        cp.openCart();
-        cp.startCheckout();
-        cp.fillDetails("", "Doe", "12345");
-        cp.continueCheckout();
-
-        Assert.assertTrue(cp.getErrorMessage().contains("First Name"),
-                "Error message should mention First Name.");
-    }*/
 
     @Test
     public void cancelCheckoutShouldReturnToCart() {
@@ -128,20 +113,17 @@ public class TestCheckoutPage extends BaseTest {
         cp.startCheckout();
         cp.cancelCheckout();
 
-        Assert.assertTrue(driver.getCurrentUrl().contains("cart"),
-                "Should be back to cart page after cancel.");
+        Assert.assertTrue(driver.getCurrentUrl().contains("cart"),"Should be back to cart page after cancel.");
     }
 
     @Test
     public void cannotCheckoutWithEmptyCart() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
         CheckoutPage cp = new CheckoutPage(driver);
-        cp.openCart(); // Cart is empty
+        cp.openCart();
         cp.startCheckout();
         cp.fillDetails("Jane", "Doe", "00000");
         cp.continueCheckout();
-
-        // ✅ Fix: instead of checking for Finish button, verify cart is empty
         Assert.assertTrue(cp.getSummaryItems().isEmpty(),
                 "Checkout summary should not show any items if cart is empty.");
     }
@@ -157,8 +139,7 @@ public class TestCheckoutPage extends BaseTest {
         cp.fillDetails("Mark", "Smith", "45678");
         cp.continueCheckout();
         cp.finishCheckout();
-        Assert.assertEquals(cp.getConfirmation().trim(),
-                "Thank you for your order!",
-                "Confirmation message mismatch.");
+        Assert.assertEquals(cp.getConfirmation().trim(), "Thank you for your order!", "Confirmation message mismatch.");
     }
 }
+

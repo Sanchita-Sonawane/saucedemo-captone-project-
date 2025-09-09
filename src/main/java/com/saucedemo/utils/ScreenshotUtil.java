@@ -24,8 +24,9 @@ public class ScreenshotUtil {
             System.out.println("Screenshot saved at: " + destFile.getAbsolutePath());
             return destFile.getAbsolutePath(); 
         } catch (IOException e) {
-            System.err.println("Failed to save screenshot: " + e.getMessage());
+           System.err.println("Failed to save screenshot: " + e.getMessage());
             return null; 
         }
     }
 }
+

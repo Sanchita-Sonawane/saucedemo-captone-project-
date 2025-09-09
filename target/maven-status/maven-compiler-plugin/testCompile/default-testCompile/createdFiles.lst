@@ -1,0 +1,10 @@
+com\saucedemo\tests\TestLogoutPage.class
+com\saucedemo\runners\TestRunner.class
+com\saucedemo\tests\TestHomePage.class
+com\saucedemo\tests\TestAddToCartPage.class
+com\saucedemo\tests\TestCheckoutPage.class
+com\saucedemo\tests\TestSortingProductPage.class
+com\saucedemo\stepDefinitions\LoginSteps.class
+com\saucedemo\tests\BaseTest.class
+com\saucedemo\tests\LoginPageTest.class
+com\saucedemo\tests\TestCartBadgeCountValidationPage.class

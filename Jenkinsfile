@@ -3,7 +3,7 @@ pipeline {
  
     environment {
         BRANCH_NAME = 'main'
-        ECLIPSE_WORKSPACE = 'C:\\Users\\HP\\eclipse-workspace\\SauceDemoAutomation'
+        ECLIPSE_WORKSPACE = C:\Users\HP\eclipse-workspace\SauceDemoAutomation'
         COMMIT_MESSAGE = 'Jenkins: Auto-commit after build'
     }
  

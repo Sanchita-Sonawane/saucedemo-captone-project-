@@ -11,32 +11,33 @@ public class TestSortingProductPage extends BaseTest {
     @Test
     public void sortByPriceLowToHigh() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        SortingProductPage sp = new SortingProductPage(driver);
-        sp.sortBy("Price (low to high)");
-        Assert.assertTrue(sp.isSortedByPriceLowToHigh(), "Products are not sorted by price low to high");
+        SortingProductPage sort = new SortingProductPage(driver);
+        sort.sortBy("Price (low to high)");
+        Assert.assertTrue(sort.isSortedByPriceLowToHigh(), "Products are not sorted by price low to high");
     }
     
     @Test
     public void sortByPriceHighToLow() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        SortingProductPage sp = new SortingProductPage(driver);
-        sp.sortBy("Price (high to low)");
-        Assert.assertTrue(sp.isSortedByPriceHighToLow(), "Products are not sorted by price high to low");
+        SortingProductPage sort = new SortingProductPage(driver);
+        sort.sortBy("Price (high to low)");
+        Assert.assertTrue(sort.isSortedByPriceHighToLow(), "Products are not sorted by price high to low");
     }
 
     @Test
     public void sortByNameAtoZ() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        SortingProductPage sp = new SortingProductPage(driver);
-        sp.sortBy("Name (A to Z)");
-        Assert.assertTrue(sp.isSortedByNameAtoZ(), "Products are not sorted by name A to Z");
+        SortingProductPage sort = new SortingProductPage(driver);
+        sort.sortBy("Name (A to Z)");
+        Assert.assertTrue(sort.isSortedByNameAtoZ(), "Products are not sorted by name A to Z");
     }
 
     @Test
     public void sortByNameZtoA() {
         new LoginPage(driver).navigate().login(DataSet.STANDARD_USER, DataSet.PASSWORD);
-        SortingProductPage sp = new SortingProductPage(driver);
-        sp.sortBy("Name (Z to A)");
-        Assert.assertTrue(sp.isSortedByNameZtoA(), "Products are not sorted by name Z to A");
+        SortingProductPage sort = new SortingProductPage(driver);
+        sort.sortBy("Name (Z to A)");
+        Assert.assertTrue(sort.isSortedByNameZtoA(), "Products are not sorted by name Z to A");
     }
 }
+
