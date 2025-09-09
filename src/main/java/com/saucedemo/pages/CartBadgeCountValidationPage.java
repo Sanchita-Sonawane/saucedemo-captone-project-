@@ -18,6 +18,7 @@ public class CartBadgeCountValidationPage extends BasePage {
         super(driver);
     }
 
+    // made remote changes here........
     public void addTwoItems() {
         addBackpackOnly();
         addBoltOnly();

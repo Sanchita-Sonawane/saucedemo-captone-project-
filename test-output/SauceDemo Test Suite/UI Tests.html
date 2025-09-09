@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>UI Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 08 16:51:27 IST 2025</td>
+<td>Started on:</td><td>Tue Sep 09 11:39:15 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>187 seconds (187049 ms)</td>
+<tr><td>Total time:</td><td>187 seconds (187331 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,66 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully()'><b>allValidUsersShouldLoginSuccessfully</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: logout_sidebar_link (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54245}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54245/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ab4347ce1fcc76dff894ea996dc231e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.saucedemo.pages.LogoutPage.logout(LogoutPage.java:26)
+	at com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully(LoginPageTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace743543772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace743543772'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: logout_sidebar_link (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54245}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54245/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ab4347ce1fcc76dff894ea996dc231e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.saucedemo.pages.LogoutPage.logout(LogoutPage.java:26)
+	at com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully(LoginPageTest.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>19</td>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,125 +136,120 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.saucedemo.tests.TestAddToCartPage.addItemUpdatesCartBadge()'><b>addItemUpdatesCartBadge</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestSortingProductPage.sortByPriceLowToHigh()'><b>sortByPriceLowToHigh</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
+<td title='com.saucedemo.tests.TestCheckoutPage.cancelCheckoutShouldReturnToCart()'><b>cancelCheckoutShouldReturnToCart</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
 <td></td>
 <td>1</td>
-<td>com.saucedemo.tests.TestSortingProductPage@291caca8</td></tr>
-<tr>
-<td title='com.saucedemo.tests.LoginPageTest.testUsernameRequiredError()'><b>testUsernameRequiredError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestSortingProductPage.sortByNameZtoA()'><b>sortByNameZtoA</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestSortingProductPage@291caca8</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCheckoutPage.checkoutShowsCorrectConfirmationMessage()'><b>checkoutShowsCorrectConfirmationMessage</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.TestCheckoutPage@399c4be1</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestAddToCartPage.removeItemUpdatesCartBadgeToZero()'><b>removeItemUpdatesCartBadgeToZero</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestSortingProductPage.sortByNameAtoZ()'><b>sortByNameAtoZ</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestSortingProductPage@291caca8</td></tr>
-<tr>
-<td title='com.saucedemo.tests.LoginPageTest.validLogin()'><b>validLogin</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
-<tr>
-<td title='com.saucedemo.tests.LoginPageTest.testPasswordRequiredError()'><b>testPasswordRequiredError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestAddToCartPage.cartBadgeAccumulatesItems()'><b>cartBadgeAccumulatesItems</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCheckoutPage.completeCheckoutFlow()'><b>completeCheckoutFlow</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.TestCheckoutPage@399c4be1</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoItems()'><b>badgeShowsTwoWhenAddingTwoItems</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@45b4c3a9</td></tr>
+<td>com.saucedemo.tests.TestCheckoutPage@8c3b9d</td></tr>
 <tr>
 <td title='com.saucedemo.tests.TestAddToCartPage.addToCartButtonChangesToRemove()'><b>addToCartButtonChangesToRemove</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
 <td></td>
 <td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
 <tr>
-<td title='com.saucedemo.tests.LoginPageTest.invalidUserShowsError()'><b>invalidUserShowsError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td title='com.saucedemo.tests.TestSortingProductPage.sortByNameAtoZ()'><b>sortByNameAtoZ</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.TestSortingProductPage@4c39bec8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestSortingProductPage.sortByPriceLowToHigh()'><b>sortByPriceLowToHigh</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
 <td></td>
 <td>0</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestSortingProductPage.sortByPriceHighToLow()'><b>sortByPriceHighToLow</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.TestSortingProductPage@291caca8</td></tr>
-<tr>
-<td title='com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully()'><b>allValidUsersShouldLoginSuccessfully</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
-<td></td>
-<td>14</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestAddToCartPage.removeFromCartButtonChangesToAddToCart()'><b>removeFromCartButtonChangesToAddToCart</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingItems()'><b>badgeIncrementsWhenAddingItems</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@45b4c3a9</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingItem()'><b>badgeUpdatesAfterRemovingItem</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
-<td></td>
-<td>0</td>
-<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@45b4c3a9</td></tr>
+<td>com.saucedemo.tests.TestSortingProductPage@4c39bec8</td></tr>
 <tr>
 <td title='com.saucedemo.tests.TestCheckoutPage.cannotCheckoutWithEmptyCart()'><b>cannotCheckoutWithEmptyCart</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
 <td></td>
 <td>1</td>
-<td>com.saucedemo.tests.TestCheckoutPage@399c4be1</td></tr>
+<td>com.saucedemo.tests.TestCheckoutPage@8c3b9d</td></tr>
 <tr>
-<td title='com.saucedemo.tests.TestLogoutPage.logoutWorks()'><b>logoutWorks</b><br>Test class: com.saucedemo.tests.TestLogoutPage</td>
+<td title='com.saucedemo.tests.TestAddToCartPage.addItemUpdatesCartBadge()'><b>addItemUpdatesCartBadge</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
 <td></td>
-<td>1</td>
-<td>com.saucedemo.tests.TestLogoutPage@385e9564</td></tr>
-<tr>
-<td title='com.saucedemo.tests.TestCheckoutPage.cancelCheckoutShouldReturnToCart()'><b>cancelCheckoutShouldReturnToCart</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
-<td></td>
-<td>1</td>
-<td>com.saucedemo.tests.TestCheckoutPage@399c4be1</td></tr>
+<td>0</td>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
 <tr>
 <td title='com.saucedemo.tests.LoginPageTest.lockedOutUserShowsError()'><b>lockedOutUserShowsError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
 <td></td>
 <td>1</td>
-<td>com.saucedemo.tests.LoginPageTest@7d20d0b</td></tr>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestCheckoutPage.checkoutShowsCorrectConfirmationMessage()'><b>checkoutShowsCorrectConfirmationMessage</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.TestCheckoutPage@8c3b9d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginPageTest.testUsernameRequiredError()'><b>testUsernameRequiredError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestAddToCartPage.removeFromCartButtonChangesToAddToCart()'><b>removeFromCartButtonChangesToAddToCart</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginPageTest.testPasswordRequiredError()'><b>testPasswordRequiredError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginPageTest.invalidUserShowsError()'><b>invalidUserShowsError</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestCheckoutPage.completeCheckoutFlow()'><b>completeCheckoutFlow</b><br>Test class: com.saucedemo.tests.TestCheckoutPage</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.TestCheckoutPage@8c3b9d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestAddToCartPage.cartBadgeAccumulatesItems()'><b>cartBadgeAccumulatesItems</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
 <tr>
 <td title='com.saucedemo.tests.TestAddToCartPage.cartLinkNavigatesToCartPage()'><b>cartLinkNavigatesToCartPage</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
 <td></td>
 <td>0</td>
-<td>com.saucedemo.tests.TestAddToCartPage@77f1baf5</td></tr>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeShowsTwoWhenAddingTwoItems()'><b>badgeShowsTwoWhenAddingTwoItems</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@5b94b04d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestSortingProductPage.sortByPriceHighToLow()'><b>sortByPriceHighToLow</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestSortingProductPage@4c39bec8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestSortingProductPage.sortByNameZtoA()'><b>sortByNameZtoA</b><br>Test class: com.saucedemo.tests.TestSortingProductPage</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.TestSortingProductPage@4c39bec8</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeIncrementsWhenAddingItems()'><b>badgeIncrementsWhenAddingItems</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@5b94b04d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginPageTest.validLogin()'><b>validLogin</b><br>Test class: com.saucedemo.tests.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.LoginPageTest@7bedc48a</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestCartBadgeCountValidationPage.badgeUpdatesAfterRemovingItem()'><b>badgeUpdatesAfterRemovingItem</b><br>Test class: com.saucedemo.tests.TestCartBadgeCountValidationPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestCartBadgeCountValidationPage@5b94b04d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestLogoutPage.logoutWorks()'><b>logoutWorks</b><br>Test class: com.saucedemo.tests.TestLogoutPage</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.TestLogoutPage@f79e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.TestAddToCartPage.removeItemUpdatesCartBadgeToZero()'><b>removeItemUpdatesCartBadgeToZero</b><br>Test class: com.saucedemo.tests.TestAddToCartPage</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.TestAddToCartPage@131ef10</td></tr>
 </table><p>
 </body>
 </html>

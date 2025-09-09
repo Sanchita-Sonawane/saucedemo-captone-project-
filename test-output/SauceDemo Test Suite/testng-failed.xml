@@ -3,77 +3,13 @@
 <suite thread-count="2" parallel="tests" name="Failed suite [SauceDemo Test Suite]">
   <test thread-count="2" parallel="tests" name="UI Tests(failed)">
     <classes>
-      <class name="com.saucedemo.tests.TestSortingProductPage">
-        <methods>
-          <include name="sortByPriceHighToLow"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="sortByNameZtoA"/>
-          <include name="sortByPriceLowToHigh"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="sortByNameAtoZ"/>
-        </methods>
-      </class> <!-- com.saucedemo.tests.TestSortingProductPage -->
-      <class name="com.saucedemo.tests.TestCartBadgeCountValidationPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="badgeShowsTwoWhenAddingTwoItems"/>
-          <include name="beforeSuite"/>
-          <include name="badgeUpdatesAfterRemovingItem"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="loginAndSetup"/>
-          <include name="badgeIncrementsWhenAddingItems"/>
-        </methods>
-      </class> <!-- com.saucedemo.tests.TestCartBadgeCountValidationPage -->
-      <class name="com.saucedemo.tests.TestAddToCartPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="cartLinkNavigatesToCartPage"/>
-          <include name="cartBadgeAccumulatesItems"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="loginBeforeEachTest"/>
-          <include name="addToCartButtonChangesToRemove"/>
-          <include name="addItemUpdatesCartBadge"/>
-          <include name="removeFromCartButtonChangesToAddToCart"/>
-          <include name="removeItemUpdatesCartBadgeToZero"/>
-        </methods>
-      </class> <!-- com.saucedemo.tests.TestAddToCartPage -->
-      <class name="com.saucedemo.tests.TestCheckoutPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-          <include name="completeCheckoutFlow"/>
-          <include name="cannotCheckoutWithEmptyCart"/>
-          <include name="cancelCheckoutShouldReturnToCart"/>
-          <include name="checkoutShowsCorrectConfirmationMessage"/>
-        </methods>
-      </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
-      <class name="com.saucedemo.tests.TestLogoutPage">
-        <methods>
-          <include name="logoutWorks"/>
-          <include name="tearDown"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.saucedemo.tests.TestLogoutPage -->
       <class name="com.saucedemo.tests.LoginPageTest">
         <methods>
-          <include name="lockedOutUserShowsError"/>
-          <include name="invalidUserShowsError"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
-          <include name="testPasswordRequiredError"/>
+          <include name="allValidUsersShouldLoginSuccessfully"/>
           <include name="afterSuite"/>
           <include name="setUp"/>
-          <include name="testUsernameRequiredError"/>
-          <include name="validLogin"/>
         </methods>
       </class> <!-- com.saucedemo.tests.LoginPageTest -->
     </classes>
