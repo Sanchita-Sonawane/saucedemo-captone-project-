@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sept 9, 2025 11:39:15 am</span></a>
+<a href="#"><span class="badge badge-primary">Sep 9, 2025 12:12:50 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,11 +45,6 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -72,7 +67,6 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -80,25 +74,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">allValidUsersShouldLoginSuccessfully</p>
             <p class="text-sm">
-              <span>11:39:30 am</span> / <span>00:00:19:954</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:12:54 PM</span> / <span>00:00:10:973</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">allValidUsersShouldLoginSuccessfully</h5>
-<span class='badge badge-success'>09.09.2025 11:39:30 am</span>
-<span class='badge badge-danger'>09.09.2025 11:39:50 am</span>
-<span class='badge badge-default'>00:00:19:954</span>
+<h5 class="test-status text-pass">allValidUsersShouldLoginSuccessfully</h5>
+<span class='badge badge-success'>09.09.2025 12:12:54 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:05 PM</span>
+<span class='badge badge-default'>00:00:10:973</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -106,7 +100,7 @@
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\allValidUsersShouldLoginSuccessfully_20250909_113950.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\allValidUsersShouldLoginSuccessfully_20250909_113950.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\allValidUsersShouldLoginSuccessfully_20250909_121305.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\allValidUsersShouldLoginSuccessfully_20250909_121305.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -114,41 +108,10 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:39:50 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:13:05 PM</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: logout_sidebar_link (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54245}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54245/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ab4347ce1fcc76dff894ea996dc231e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.saucedemo.pages.LogoutPage.logout(LogoutPage.java:26)
-	at com.saucedemo.tests.LoginPageTest.allValidUsersShouldLoginSuccessfully(LoginPageTest.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</textarea>
-          
+          Test Passed
         </td>
       </tr>
   </tbody>
@@ -163,7 +126,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">invalidUserShowsError</p>
             <p class="text-sm">
-              <span>11:39:56 am</span> / <span>00:00:01:033</span>
+              <span>12:13:11 PM</span> / <span>00:00:01:804</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -172,9 +135,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">invalidUserShowsError</h5>
-<span class='badge badge-success'>09.09.2025 11:39:56 am</span>
-<span class='badge badge-danger'>09.09.2025 11:39:57 am</span>
-<span class='badge badge-default'>00:00:01:033</span>
+<span class='badge badge-success'>09.09.2025 12:13:11 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:12 PM</span>
+<span class='badge badge-default'>00:00:01:804</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -182,7 +145,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\invalidUserShowsError_20250909_113957.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\invalidUserShowsError_20250909_113957.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\invalidUserShowsError_20250909_121312.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\invalidUserShowsError_20250909_121312.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -191,7 +154,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:39:57 am</td>
+        <td>12:13:12 PM</td>
         <td>
           Test Passed
         </td>
@@ -208,7 +171,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">lockedOutUserShowsError</p>
             <p class="text-sm">
-              <span>11:40:03 am</span> / <span>00:00:01:201</span>
+              <span>12:13:18 PM</span> / <span>00:00:01:028</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -217,9 +180,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">lockedOutUserShowsError</h5>
-<span class='badge badge-success'>09.09.2025 11:40:03 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:04 am</span>
-<span class='badge badge-default'>00:00:01:201</span>
+<span class='badge badge-success'>09.09.2025 12:13:18 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:19 PM</span>
+<span class='badge badge-default'>00:00:01:028</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -227,7 +190,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\lockedOutUserShowsError_20250909_114004.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\lockedOutUserShowsError_20250909_114004.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\lockedOutUserShowsError_20250909_121319.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\lockedOutUserShowsError_20250909_121319.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -236,7 +199,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:04 am</td>
+        <td>12:13:19 PM</td>
         <td>
           Test Passed
         </td>
@@ -253,7 +216,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">testPasswordRequiredError</p>
             <p class="text-sm">
-              <span>11:40:09 am</span> / <span>00:00:00:897</span>
+              <span>12:13:24 PM</span> / <span>00:00:00:697</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -262,9 +225,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testPasswordRequiredError</h5>
-<span class='badge badge-success'>09.09.2025 11:40:09 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:10 am</span>
-<span class='badge badge-default'>00:00:00:897</span>
+<span class='badge badge-success'>09.09.2025 12:13:24 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:25 PM</span>
+<span class='badge badge-default'>00:00:00:697</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -272,7 +235,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\testPasswordRequiredError_20250909_114010.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\testPasswordRequiredError_20250909_114010.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\testPasswordRequiredError_20250909_121325.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\testPasswordRequiredError_20250909_121325.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -281,7 +244,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:10 am</td>
+        <td>12:13:25 PM</td>
         <td>
           Test Passed
         </td>
@@ -298,7 +261,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">testUsernameRequiredError</p>
             <p class="text-sm">
-              <span>11:40:16 am</span> / <span>00:00:01:309</span>
+              <span>12:13:30 PM</span> / <span>00:00:00:675</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -307,9 +270,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">testUsernameRequiredError</h5>
-<span class='badge badge-success'>09.09.2025 11:40:16 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:17 am</span>
-<span class='badge badge-default'>00:00:01:309</span>
+<span class='badge badge-success'>09.09.2025 12:13:30 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:31 PM</span>
+<span class='badge badge-default'>00:00:00:675</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -317,7 +280,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\testUsernameRequiredError_20250909_114017.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\testUsernameRequiredError_20250909_114017.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\testUsernameRequiredError_20250909_121331.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\testUsernameRequiredError_20250909_121331.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -326,7 +289,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:17 am</td>
+        <td>12:13:31 PM</td>
         <td>
           Test Passed
         </td>
@@ -343,7 +306,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">validLogin</p>
             <p class="text-sm">
-              <span>11:40:22 am</span> / <span>00:00:01:795</span>
+              <span>12:13:34 PM</span> / <span>00:00:00:902</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -352,9 +315,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">validLogin</h5>
-<span class='badge badge-success'>09.09.2025 11:40:22 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:24 am</span>
-<span class='badge badge-default'>00:00:01:795</span>
+<span class='badge badge-success'>09.09.2025 12:13:34 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:35 PM</span>
+<span class='badge badge-default'>00:00:00:902</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -362,7 +325,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\validLogin_20250909_114024.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\validLogin_20250909_114024.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\validLogin_20250909_121335.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\validLogin_20250909_121335.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -371,7 +334,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:24 am</td>
+        <td>12:13:35 PM</td>
         <td>
           Test Passed
         </td>
@@ -388,7 +351,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">addItemUpdatesCartBadge</p>
             <p class="text-sm">
-              <span>11:40:28 am</span> / <span>00:00:01:283</span>
+              <span>12:13:38 PM</span> / <span>00:00:00:793</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -397,9 +360,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">addItemUpdatesCartBadge</h5>
-<span class='badge badge-success'>09.09.2025 11:40:28 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:30 am</span>
-<span class='badge badge-default'>00:00:01:283</span>
+<span class='badge badge-success'>09.09.2025 12:13:38 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:39 PM</span>
+<span class='badge badge-default'>00:00:00:793</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -407,7 +370,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\addItemUpdatesCartBadge_20250909_114030.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\addItemUpdatesCartBadge_20250909_114030.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\addItemUpdatesCartBadge_20250909_121339.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\addItemUpdatesCartBadge_20250909_121339.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -416,7 +379,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:30 am</td>
+        <td>12:13:39 PM</td>
         <td>
           Test Passed
         </td>
@@ -433,7 +396,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">addToCartButtonChangesToRemove</p>
             <p class="text-sm">
-              <span>11:40:34 am</span> / <span>00:00:01:487</span>
+              <span>12:13:43 PM</span> / <span>00:00:00:812</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -442,9 +405,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">addToCartButtonChangesToRemove</h5>
-<span class='badge badge-success'>09.09.2025 11:40:34 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:36 am</span>
-<span class='badge badge-default'>00:00:01:487</span>
+<span class='badge badge-success'>09.09.2025 12:13:43 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:44 PM</span>
+<span class='badge badge-default'>00:00:00:812</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -452,7 +415,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\addToCartButtonChangesToRemove_20250909_114036.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\addToCartButtonChangesToRemove_20250909_114036.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\addToCartButtonChangesToRemove_20250909_121344.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\addToCartButtonChangesToRemove_20250909_121344.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -461,7 +424,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:36 am</td>
+        <td>12:13:44 PM</td>
         <td>
           Test Passed
         </td>
@@ -478,7 +441,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">cartBadgeAccumulatesItems</p>
             <p class="text-sm">
-              <span>11:40:41 am</span> / <span>00:00:01:423</span>
+              <span>12:13:48 PM</span> / <span>00:00:01:509</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -487,9 +450,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">cartBadgeAccumulatesItems</h5>
-<span class='badge badge-success'>09.09.2025 11:40:41 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:42 am</span>
-<span class='badge badge-default'>00:00:01:423</span>
+<span class='badge badge-success'>09.09.2025 12:13:48 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:49 PM</span>
+<span class='badge badge-default'>00:00:01:509</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -497,7 +460,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cartBadgeAccumulatesItems_20250909_114042.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cartBadgeAccumulatesItems_20250909_114042.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cartBadgeAccumulatesItems_20250909_121349.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cartBadgeAccumulatesItems_20250909_121349.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -506,7 +469,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:42 am</td>
+        <td>12:13:49 PM</td>
         <td>
           Test Passed
         </td>
@@ -523,7 +486,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">cartLinkNavigatesToCartPage</p>
             <p class="text-sm">
-              <span>11:40:47 am</span> / <span>00:00:01:217</span>
+              <span>12:13:54 PM</span> / <span>00:00:00:970</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -532,9 +495,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">cartLinkNavigatesToCartPage</h5>
-<span class='badge badge-success'>09.09.2025 11:40:47 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:48 am</span>
-<span class='badge badge-default'>00:00:01:217</span>
+<span class='badge badge-success'>09.09.2025 12:13:54 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:13:55 PM</span>
+<span class='badge badge-default'>00:00:00:970</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -542,7 +505,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cartLinkNavigatesToCartPage_20250909_114048.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cartLinkNavigatesToCartPage_20250909_114048.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cartLinkNavigatesToCartPage_20250909_121355.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cartLinkNavigatesToCartPage_20250909_121355.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -551,7 +514,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:48 am</td>
+        <td>12:13:55 PM</td>
         <td>
           Test Passed
         </td>
@@ -568,7 +531,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">removeFromCartButtonChangesToAddToCart</p>
             <p class="text-sm">
-              <span>11:40:52 am</span> / <span>00:00:01:389</span>
+              <span>12:13:58 PM</span> / <span>00:00:01:400</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -577,9 +540,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">removeFromCartButtonChangesToAddToCart</h5>
-<span class='badge badge-success'>09.09.2025 11:40:52 am</span>
-<span class='badge badge-danger'>09.09.2025 11:40:54 am</span>
-<span class='badge badge-default'>00:00:01:389</span>
+<span class='badge badge-success'>09.09.2025 12:13:58 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:00 PM</span>
+<span class='badge badge-default'>00:00:01:400</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -587,7 +550,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\removeFromCartButtonChangesToAddToCart_20250909_114054.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\removeFromCartButtonChangesToAddToCart_20250909_114054.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\removeFromCartButtonChangesToAddToCart_20250909_121400.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\removeFromCartButtonChangesToAddToCart_20250909_121400.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -596,7 +559,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:40:54 am</td>
+        <td>12:14:00 PM</td>
         <td>
           Test Passed
         </td>
@@ -613,7 +576,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">removeItemUpdatesCartBadgeToZero</p>
             <p class="text-sm">
-              <span>11:40:58 am</span> / <span>00:00:01:158</span>
+              <span>12:14:05 PM</span> / <span>00:00:01:182</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -622,9 +585,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">removeItemUpdatesCartBadgeToZero</h5>
-<span class='badge badge-success'>09.09.2025 11:40:58 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:00 am</span>
-<span class='badge badge-default'>00:00:01:158</span>
+<span class='badge badge-success'>09.09.2025 12:14:05 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:06 PM</span>
+<span class='badge badge-default'>00:00:01:182</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -632,7 +595,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\removeItemUpdatesCartBadgeToZero_20250909_114100.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\removeItemUpdatesCartBadgeToZero_20250909_114100.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\removeItemUpdatesCartBadgeToZero_20250909_121406.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\removeItemUpdatesCartBadgeToZero_20250909_121406.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -641,7 +604,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:00 am</td>
+        <td>12:14:06 PM</td>
         <td>
           Test Passed
         </td>
@@ -658,7 +621,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">badgeIncrementsWhenAddingItems</p>
             <p class="text-sm">
-              <span>11:41:04 am</span> / <span>00:00:01:426</span>
+              <span>12:14:10 PM</span> / <span>00:00:01:198</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -667,9 +630,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">badgeIncrementsWhenAddingItems</h5>
-<span class='badge badge-success'>09.09.2025 11:41:04 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:06 am</span>
-<span class='badge badge-default'>00:00:01:426</span>
+<span class='badge badge-success'>09.09.2025 12:14:10 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:11 PM</span>
+<span class='badge badge-default'>00:00:01:198</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -677,7 +640,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeIncrementsWhenAddingItems_20250909_114106.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeIncrementsWhenAddingItems_20250909_114106.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeIncrementsWhenAddingItems_20250909_121411.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeIncrementsWhenAddingItems_20250909_121411.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -686,7 +649,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:06 am</td>
+        <td>12:14:11 PM</td>
         <td>
           Test Passed
         </td>
@@ -703,7 +666,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">badgeShowsTwoWhenAddingTwoItems</p>
             <p class="text-sm">
-              <span>11:41:10 am</span> / <span>00:00:01:315</span>
+              <span>12:14:17 PM</span> / <span>00:00:01:367</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -712,9 +675,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">badgeShowsTwoWhenAddingTwoItems</h5>
-<span class='badge badge-success'>09.09.2025 11:41:10 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:11 am</span>
-<span class='badge badge-default'>00:00:01:315</span>
+<span class='badge badge-success'>09.09.2025 12:14:17 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:19 PM</span>
+<span class='badge badge-default'>00:00:01:367</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -722,7 +685,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeShowsTwoWhenAddingTwoItems_20250909_114111.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeShowsTwoWhenAddingTwoItems_20250909_114111.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeShowsTwoWhenAddingTwoItems_20250909_121419.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeShowsTwoWhenAddingTwoItems_20250909_121419.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -731,7 +694,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:11 am</td>
+        <td>12:14:19 PM</td>
         <td>
           Test Passed
         </td>
@@ -748,7 +711,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">badgeUpdatesAfterRemovingItem</p>
             <p class="text-sm">
-              <span>11:41:16 am</span> / <span>00:00:01:468</span>
+              <span>12:14:23 PM</span> / <span>00:00:01:708</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -757,9 +720,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">badgeUpdatesAfterRemovingItem</h5>
-<span class='badge badge-success'>09.09.2025 11:41:16 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:17 am</span>
-<span class='badge badge-default'>00:00:01:468</span>
+<span class='badge badge-success'>09.09.2025 12:14:23 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:25 PM</span>
+<span class='badge badge-default'>00:00:01:708</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -767,7 +730,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeUpdatesAfterRemovingItem_20250909_114117.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\badgeUpdatesAfterRemovingItem_20250909_114117.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeUpdatesAfterRemovingItem_20250909_121425.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\badgeUpdatesAfterRemovingItem_20250909_121425.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -776,7 +739,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:17 am</td>
+        <td>12:14:25 PM</td>
         <td>
           Test Passed
         </td>
@@ -793,7 +756,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">cancelCheckoutShouldReturnToCart</p>
             <p class="text-sm">
-              <span>11:41:23 am</span> / <span>00:00:01:621</span>
+              <span>12:14:30 PM</span> / <span>00:00:01:617</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -802,9 +765,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">cancelCheckoutShouldReturnToCart</h5>
-<span class='badge badge-success'>09.09.2025 11:41:23 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:25 am</span>
-<span class='badge badge-default'>00:00:01:621</span>
+<span class='badge badge-success'>09.09.2025 12:14:30 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:31 PM</span>
+<span class='badge badge-default'>00:00:01:617</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -812,7 +775,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cancelCheckoutShouldReturnToCart_20250909_114125.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cancelCheckoutShouldReturnToCart_20250909_114125.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cancelCheckoutShouldReturnToCart_20250909_121431.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cancelCheckoutShouldReturnToCart_20250909_121431.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -821,7 +784,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:25 am</td>
+        <td>12:14:31 PM</td>
         <td>
           Test Passed
         </td>
@@ -838,7 +801,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">cannotCheckoutWithEmptyCart</p>
             <p class="text-sm">
-              <span>11:41:29 am</span> / <span>00:00:01:752</span>
+              <span>12:14:36 PM</span> / <span>00:00:01:862</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -847,9 +810,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">cannotCheckoutWithEmptyCart</h5>
-<span class='badge badge-success'>09.09.2025 11:41:29 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:31 am</span>
-<span class='badge badge-default'>00:00:01:752</span>
+<span class='badge badge-success'>09.09.2025 12:14:36 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:38 PM</span>
+<span class='badge badge-default'>00:00:01:862</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -857,7 +820,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cannotCheckoutWithEmptyCart_20250909_114131.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\cannotCheckoutWithEmptyCart_20250909_114131.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cannotCheckoutWithEmptyCart_20250909_121438.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\cannotCheckoutWithEmptyCart_20250909_121438.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -866,7 +829,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:31 am</td>
+        <td>12:14:38 PM</td>
         <td>
           Test Passed
         </td>
@@ -883,7 +846,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">checkoutShowsCorrectConfirmationMessage</p>
             <p class="text-sm">
-              <span>11:41:36 am</span> / <span>00:00:02:408</span>
+              <span>12:14:43 PM</span> / <span>00:00:01:622</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -892,9 +855,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">checkoutShowsCorrectConfirmationMessage</h5>
-<span class='badge badge-success'>09.09.2025 11:41:36 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:39 am</span>
-<span class='badge badge-default'>00:00:02:408</span>
+<span class='badge badge-success'>09.09.2025 12:14:43 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:44 PM</span>
+<span class='badge badge-default'>00:00:01:622</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -902,7 +865,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\checkoutShowsCorrectConfirmationMessage_20250909_114139.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\checkoutShowsCorrectConfirmationMessage_20250909_114139.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\checkoutShowsCorrectConfirmationMessage_20250909_121444.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\checkoutShowsCorrectConfirmationMessage_20250909_121444.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -911,7 +874,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:39 am</td>
+        <td>12:14:44 PM</td>
         <td>
           Test Passed
         </td>
@@ -928,7 +891,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">completeCheckoutFlow</p>
             <p class="text-sm">
-              <span>11:41:45 am</span> / <span>00:00:02:443</span>
+              <span>12:14:47 PM</span> / <span>00:00:01:286</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -937,9 +900,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">completeCheckoutFlow</h5>
-<span class='badge badge-success'>09.09.2025 11:41:45 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:48 am</span>
-<span class='badge badge-default'>00:00:02:443</span>
+<span class='badge badge-success'>09.09.2025 12:14:47 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:49 PM</span>
+<span class='badge badge-default'>00:00:01:286</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -947,7 +910,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\completeCheckoutFlow_20250909_114148.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\completeCheckoutFlow_20250909_114148.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\completeCheckoutFlow_20250909_121449.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\completeCheckoutFlow_20250909_121449.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -956,7 +919,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:48 am</td>
+        <td>12:14:49 PM</td>
         <td>
           Test Passed
         </td>
@@ -973,7 +936,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">sortByNameAtoZ</p>
             <p class="text-sm">
-              <span>11:41:53 am</span> / <span>00:00:02:530</span>
+              <span>12:14:52 PM</span> / <span>00:00:00:722</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -982,9 +945,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">sortByNameAtoZ</h5>
-<span class='badge badge-success'>09.09.2025 11:41:53 am</span>
-<span class='badge badge-danger'>09.09.2025 11:41:56 am</span>
-<span class='badge badge-default'>00:00:02:530</span>
+<span class='badge badge-success'>09.09.2025 12:14:52 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:53 PM</span>
+<span class='badge badge-default'>00:00:00:722</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -992,7 +955,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByNameAtoZ_20250909_114156.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByNameAtoZ_20250909_114156.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByNameAtoZ_20250909_121453.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByNameAtoZ_20250909_121453.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -1001,7 +964,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:41:56 am</td>
+        <td>12:14:53 PM</td>
         <td>
           Test Passed
         </td>
@@ -1018,7 +981,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">sortByNameZtoA</p>
             <p class="text-sm">
-              <span>11:42:00 am</span> / <span>00:00:02:350</span>
+              <span>12:14:56 PM</span> / <span>00:00:00:890</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1027,9 +990,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">sortByNameZtoA</h5>
-<span class='badge badge-success'>09.09.2025 11:42:00 am</span>
-<span class='badge badge-danger'>09.09.2025 11:42:03 am</span>
-<span class='badge badge-default'>00:00:02:350</span>
+<span class='badge badge-success'>09.09.2025 12:14:56 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:14:57 PM</span>
+<span class='badge badge-default'>00:00:00:890</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1037,7 +1000,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByNameZtoA_20250909_114203.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByNameZtoA_20250909_114203.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByNameZtoA_20250909_121457.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByNameZtoA_20250909_121457.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -1046,7 +1009,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:42:03 am</td>
+        <td>12:14:57 PM</td>
         <td>
           Test Passed
         </td>
@@ -1063,7 +1026,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">sortByPriceHighToLow</p>
             <p class="text-sm">
-              <span>11:42:08 am</span> / <span>00:00:01:118</span>
+              <span>12:15:00 PM</span> / <span>00:00:01:357</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1072,9 +1035,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">sortByPriceHighToLow</h5>
-<span class='badge badge-success'>09.09.2025 11:42:08 am</span>
-<span class='badge badge-danger'>09.09.2025 11:42:09 am</span>
-<span class='badge badge-default'>00:00:01:118</span>
+<span class='badge badge-success'>09.09.2025 12:15:00 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:15:01 PM</span>
+<span class='badge badge-default'>00:00:01:357</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1082,7 +1045,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByPriceHighToLow_20250909_114209.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByPriceHighToLow_20250909_114209.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByPriceHighToLow_20250909_121501.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByPriceHighToLow_20250909_121501.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -1091,7 +1054,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:42:09 am</td>
+        <td>12:15:01 PM</td>
         <td>
           Test Passed
         </td>
@@ -1108,7 +1071,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">sortByPriceLowToHigh</p>
             <p class="text-sm">
-              <span>11:42:14 am</span> / <span>00:00:01:370</span>
+              <span>12:15:04 PM</span> / <span>00:00:00:893</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1117,9 +1080,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">sortByPriceLowToHigh</h5>
-<span class='badge badge-success'>09.09.2025 11:42:14 am</span>
-<span class='badge badge-danger'>09.09.2025 11:42:15 am</span>
-<span class='badge badge-default'>00:00:01:370</span>
+<span class='badge badge-success'>09.09.2025 12:15:04 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:15:05 PM</span>
+<span class='badge badge-default'>00:00:00:893</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1127,7 +1090,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByPriceLowToHigh_20250909_114215.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\sortByPriceLowToHigh_20250909_114215.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByPriceLowToHigh_20250909_121505.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\sortByPriceLowToHigh_20250909_121505.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -1136,7 +1099,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:42:15 am</td>
+        <td>12:15:05 PM</td>
         <td>
           Test Passed
         </td>
@@ -1153,7 +1116,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
           <div class="test-detail">
             <p class="name">logoutWorks</p>
             <p class="text-sm">
-              <span>11:42:20 am</span> / <span>00:00:02:082</span>
+              <span>12:15:10 PM</span> / <span>00:00:01:524</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1162,9 +1125,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">logoutWorks</h5>
-<span class='badge badge-success'>09.09.2025 11:42:20 am</span>
-<span class='badge badge-danger'>09.09.2025 11:42:22 am</span>
-<span class='badge badge-default'>00:00:02:082</span>
+<span class='badge badge-success'>09.09.2025 12:15:10 PM</span>
+<span class='badge badge-danger'>09.09.2025 12:15:11 PM</span>
+<span class='badge badge-default'>00:00:01:524</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1172,7 +1135,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\logoutWorks_20250909_114222.png' src="C:\Users\HP\eclipse-workspace\SauceDemoAutomation\reports\screenshot\logoutWorks_20250909_114222.png">
+<img data-featherlight='C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\logoutWorks_20250909_121511.png' src="C:\ProgramData\Jenkins\.jenkins\workspace\saucedemo@2\reports\screenshot\logoutWorks_20250909_121511.png">
     
     </div></div>
 <div class="detail-body mt-4">
@@ -1181,7 +1144,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:42:22 am</td>
+        <td>12:15:11 PM</td>
         <td>
           Test Passed
         </td>
@@ -1200,79 +1163,30 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">org.openqa.selenium.TimeoutException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.TimeoutException</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>11:39:30 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>allValidUsersShouldLoginSuccessfully</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="container-fluid p-4 view dashboard-view">
+<div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sept 9, 2025 11:39:15 am</h3>
+<h3>Sep 9, 2025 12:12:50 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sept 9, 2025 11:42:23 am</h3>
+<h3>Sep 9, 2025 12:15:12 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>23</h3>
+<h3>24</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -1288,12 +1202,12 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='95%'>
-<b>23</b> tests passed
+<div><small data-tooltip='100%'>
+<b>24</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='4%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1311,9 +1225,9 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='95%'><b>23</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>24</b> events passed</small></div>
 <div>
-<small data-tooltip='4%'><b>1</b> events failed,
+<small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1330,7 +1244,7 @@ Session ID: 1ab4347ce1fcc76dff894ea996dc231e
 </div></div>
 <script>
 var timeline = {
-"allValidUsersShouldLoginSuccessfully":19.954,"invalidUserShowsError":1.033,"lockedOutUserShowsError":1.201,"testPasswordRequiredError":0.897,"testUsernameRequiredError":1.309,"validLogin":1.795,"addItemUpdatesCartBadge":1.283,"addToCartButtonChangesToRemove":1.487,"cartBadgeAccumulatesItems":1.423,"cartLinkNavigatesToCartPage":1.217,"removeFromCartButtonChangesToAddToCart":1.389,"removeItemUpdatesCartBadgeToZero":1.158,"badgeIncrementsWhenAddingItems":1.426,"badgeShowsTwoWhenAddingTwoItems":1.315,"badgeUpdatesAfterRemovingItem":1.468,"cancelCheckoutShouldReturnToCart":1.621,"cannotCheckoutWithEmptyCart":1.752,"checkoutShowsCorrectConfirmationMessage":2.408,"completeCheckoutFlow":2.443,"sortByNameAtoZ":2.53,"sortByNameZtoA":2.35,"sortByPriceHighToLow":1.118,"sortByPriceLowToHigh":1.37,"logoutWorks":2.082
+"allValidUsersShouldLoginSuccessfully":10.973,"invalidUserShowsError":1.804,"lockedOutUserShowsError":1.028,"testPasswordRequiredError":0.697,"testUsernameRequiredError":0.675,"validLogin":0.902,"addItemUpdatesCartBadge":0.793,"addToCartButtonChangesToRemove":0.812,"cartBadgeAccumulatesItems":1.509,"cartLinkNavigatesToCartPage":0.97,"removeFromCartButtonChangesToAddToCart":1.4,"removeItemUpdatesCartBadgeToZero":1.182,"badgeIncrementsWhenAddingItems":1.198,"badgeShowsTwoWhenAddingTwoItems":1.367,"badgeUpdatesAfterRemovingItem":1.708,"cancelCheckoutShouldReturnToCart":1.617,"cannotCheckoutWithEmptyCart":1.862,"checkoutShowsCorrectConfirmationMessage":1.622,"completeCheckoutFlow":1.286,"sortByNameAtoZ":0.722,"sortByNameZtoA":0.89,"sortByPriceHighToLow":1.357,"sortByPriceLowToHigh":0.893,"logoutWorks":1.524
 };
 </script>
 <div class="row">
@@ -1339,8 +1253,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 23,
-failParent: 1,
+passParent: 24,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1356,8 +1270,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 23,
-failEvents: 1,
+passEvents: 24,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
