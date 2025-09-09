@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T13:49:48 IST" name="SauceDemo Test Suite" finished-at="2025-09-09T13:52:27 IST" duration-ms="158585">
+  <suite started-at="2025-09-09T13:53:50 IST" name="SauceDemo Test Suite" finished-at="2025-09-09T13:56:21 IST" duration-ms="151277">
     <groups>
     </groups>
-    <test started-at="2025-09-09T13:49:48 IST" name="UI Tests" finished-at="2025-09-09T13:52:27 IST" duration-ms="158585">
+    <test started-at="2025-09-09T13:53:50 IST" name="UI Tests" finished-at="2025-09-09T13:56:21 IST" duration-ms="151277">
       <class name="com.saucedemo.tests.TestSortingProductPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:51:59 IST" name="setUp" finished-at="2025-09-09T13:52:05 IST" duration-ms="5867" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:55:54 IST" name="setUp" finished-at="2025-09-09T13:55:58 IST" duration-ms="3896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:05 IST" name="sortByNameAtoZ" finished-at="2025-09-09T13:52:06 IST" duration-ms="1074" status="PASS">
+        <test-method signature="sortByNameAtoZ()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:55:58 IST" name="sortByNameAtoZ" finished-at="2025-09-09T13:55:59 IST" duration-ms="988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameAtoZ -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:06 IST" name="tearDown" finished-at="2025-09-09T13:52:07 IST" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:55:59 IST" name="tearDown" finished-at="2025-09-09T13:55:59 IST" duration-ms="374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:07 IST" name="setUp" finished-at="2025-09-09T13:52:11 IST" duration-ms="4298" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:55:59 IST" name="setUp" finished-at="2025-09-09T13:56:04 IST" duration-ms="4756" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,11 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:11 IST" name="sortByNameZtoA" finished-at="2025-09-09T13:52:12 IST" duration-ms="850" status="PASS">
+        <test-method signature="sortByNameZtoA()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:04 IST" name="sortByNameZtoA" finished-at="2025-09-09T13:56:05 IST" duration-ms="1150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameZtoA -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:12 IST" name="tearDown" finished-at="2025-09-09T13:52:12 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:05 IST" name="tearDown" finished-at="2025-09-09T13:56:05 IST" duration-ms="494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:12 IST" name="setUp" finished-at="2025-09-09T13:52:16 IST" duration-ms="3768" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:05 IST" name="setUp" finished-at="2025-09-09T13:56:10 IST" duration-ms="4438" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:16 IST" name="sortByPriceHighToLow" finished-at="2025-09-09T13:52:17 IST" duration-ms="1030" status="PASS">
+        <test-method signature="sortByPriceHighToLow()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:10 IST" name="sortByPriceHighToLow" finished-at="2025-09-09T13:56:11 IST" duration-ms="1172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceHighToLow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:17 IST" name="tearDown" finished-at="2025-09-09T13:52:18 IST" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:11 IST" name="tearDown" finished-at="2025-09-09T13:56:11 IST" duration-ms="337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:18 IST" name="setUp" finished-at="2025-09-09T13:52:21 IST" duration-ms="3036" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:11 IST" name="setUp" finished-at="2025-09-09T13:56:15 IST" duration-ms="3732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,11 +116,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:21 IST" name="sortByPriceLowToHigh" finished-at="2025-09-09T13:52:22 IST" duration-ms="794" status="PASS">
+        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:15 IST" name="sortByPriceLowToHigh" finished-at="2025-09-09T13:56:16 IST" duration-ms="1044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:52:22 IST" name="tearDown" finished-at="2025-09-09T13:52:22 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestSortingProductPage@4afcd809]" started-at="2025-09-09T13:56:16 IST" name="tearDown" finished-at="2025-09-09T13:56:16 IST" duration-ms="300" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestSortingProductPage -->
       <class name="com.saucedemo.tests.TestAddToCartPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:31 IST" name="setUp" finished-at="2025-09-09T13:50:34 IST" duration-ms="3357" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:34 IST" name="setUp" finished-at="2025-09-09T13:54:38 IST" duration-ms="4398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,15 +149,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:34 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:50:35 IST" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:38 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:54:39 IST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:35 IST" name="addItemUpdatesCartBadge" finished-at="2025-09-09T13:50:35 IST" duration-ms="186" status="PASS">
+        <test-method signature="addItemUpdatesCartBadge()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:39 IST" name="addItemUpdatesCartBadge" finished-at="2025-09-09T13:54:39 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemUpdatesCartBadge -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:35 IST" name="tearDown" finished-at="2025-09-09T13:50:35 IST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:39 IST" name="tearDown" finished-at="2025-09-09T13:54:40 IST" duration-ms="371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:35 IST" name="setUp" finished-at="2025-09-09T13:50:39 IST" duration-ms="3985" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:40 IST" name="setUp" finished-at="2025-09-09T13:54:43 IST" duration-ms="3874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,15 +184,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:39 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:50:40 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:43 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:54:44 IST" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:40 IST" name="addToCartButtonChangesToRemove" finished-at="2025-09-09T13:50:40 IST" duration-ms="261" status="PASS">
+        <test-method signature="addToCartButtonChangesToRemove()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:44 IST" name="addToCartButtonChangesToRemove" finished-at="2025-09-09T13:54:44 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartButtonChangesToRemove -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:40 IST" name="tearDown" finished-at="2025-09-09T13:50:40 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:44 IST" name="tearDown" finished-at="2025-09-09T13:54:45 IST" duration-ms="261" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,7 +203,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:40 IST" name="setUp" finished-at="2025-09-09T13:50:44 IST" duration-ms="4025" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:45 IST" name="setUp" finished-at="2025-09-09T13:54:50 IST" duration-ms="5349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,15 +219,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:44 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:50:45 IST" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:50 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:54:51 IST" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:45 IST" name="cartBadgeAccumulatesItems" finished-at="2025-09-09T13:50:45 IST" duration-ms="281" status="PASS">
+        <test-method signature="cartBadgeAccumulatesItems()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:51 IST" name="cartBadgeAccumulatesItems" finished-at="2025-09-09T13:54:51 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartBadgeAccumulatesItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:45 IST" name="tearDown" finished-at="2025-09-09T13:50:46 IST" duration-ms="494" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:51 IST" name="tearDown" finished-at="2025-09-09T13:54:51 IST" duration-ms="372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,7 +238,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:46 IST" name="setUp" finished-at="2025-09-09T13:50:50 IST" duration-ms="3776" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:51 IST" name="setUp" finished-at="2025-09-09T13:54:56 IST" duration-ms="4440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -254,15 +254,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:50 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:50:51 IST" duration-ms="958" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:56 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:54:56 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:51 IST" name="cartLinkNavigatesToCartPage" finished-at="2025-09-09T13:50:53 IST" duration-ms="2045" status="PASS">
+        <test-method signature="cartLinkNavigatesToCartPage()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:56 IST" name="cartLinkNavigatesToCartPage" finished-at="2025-09-09T13:54:57 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartLinkNavigatesToCartPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:53 IST" name="tearDown" finished-at="2025-09-09T13:50:53 IST" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:57 IST" name="tearDown" finished-at="2025-09-09T13:54:57 IST" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -273,7 +273,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:53 IST" name="setUp" finished-at="2025-09-09T13:50:58 IST" duration-ms="5324" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:54:57 IST" name="setUp" finished-at="2025-09-09T13:55:02 IST" duration-ms="4520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,15 +289,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:58 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:50:59 IST" duration-ms="839" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:02 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:55:03 IST" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="removeFromCartButtonChangesToAddToCart()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:50:59 IST" name="removeFromCartButtonChangesToAddToCart" finished-at="2025-09-09T13:51:00 IST" duration-ms="281" status="PASS">
+        <test-method signature="removeFromCartButtonChangesToAddToCart()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:03 IST" name="removeFromCartButtonChangesToAddToCart" finished-at="2025-09-09T13:55:04 IST" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromCartButtonChangesToAddToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:51:00 IST" name="tearDown" finished-at="2025-09-09T13:51:00 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:04 IST" name="tearDown" finished-at="2025-09-09T13:55:04 IST" duration-ms="353" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:51:00 IST" name="setUp" finished-at="2025-09-09T13:51:05 IST" duration-ms="4621" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:04 IST" name="setUp" finished-at="2025-09-09T13:55:10 IST" duration-ms="5668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,15 +324,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:51:05 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:51:06 IST" duration-ms="1069" status="PASS">
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:10 IST" name="loginBeforeEachTest" finished-at="2025-09-09T13:55:11 IST" duration-ms="1090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeEachTest -->
-        <test-method signature="removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:51:06 IST" name="removeItemUpdatesCartBadgeToZero" finished-at="2025-09-09T13:51:06 IST" duration-ms="417" status="PASS">
+        <test-method signature="removeItemUpdatesCartBadgeToZero()[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:11 IST" name="removeItemUpdatesCartBadgeToZero" finished-at="2025-09-09T13:55:11 IST" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemUpdatesCartBadgeToZero -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:51:06 IST" name="tearDown" finished-at="2025-09-09T13:51:07 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestAddToCartPage@128d2484]" started-at="2025-09-09T13:55:11 IST" name="tearDown" finished-at="2025-09-09T13:55:12 IST" duration-ms="427" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,7 +345,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestAddToCartPage -->
       <class name="com.saucedemo.tests.TestCartBadgeCountValidationPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:07 IST" name="setUp" finished-at="2025-09-09T13:51:11 IST" duration-ms="4628" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:12 IST" name="setUp" finished-at="2025-09-09T13:55:17 IST" duration-ms="5310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,15 +361,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:11 IST" name="loginAndSetup" finished-at="2025-09-09T13:51:12 IST" duration-ms="913" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:17 IST" name="loginAndSetup" finished-at="2025-09-09T13:55:18 IST" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:12 IST" name="badgeIncrementsWhenAddingItems" finished-at="2025-09-09T13:51:12 IST" duration-ms="372" status="PASS">
+        <test-method signature="badgeIncrementsWhenAddingItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:18 IST" name="badgeIncrementsWhenAddingItems" finished-at="2025-09-09T13:55:18 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeIncrementsWhenAddingItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:12 IST" name="tearDown" finished-at="2025-09-09T13:51:13 IST" duration-ms="564" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:18 IST" name="tearDown" finished-at="2025-09-09T13:55:18 IST" duration-ms="381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -380,7 +380,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:13 IST" name="setUp" finished-at="2025-09-09T13:51:20 IST" duration-ms="7512" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:18 IST" name="setUp" finished-at="2025-09-09T13:55:22 IST" duration-ms="3932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,15 +396,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:20 IST" name="loginAndSetup" finished-at="2025-09-09T13:51:22 IST" duration-ms="1347" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:22 IST" name="loginAndSetup" finished-at="2025-09-09T13:55:23 IST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:22 IST" name="badgeShowsTwoWhenAddingTwoItems" finished-at="2025-09-09T13:51:22 IST" duration-ms="336" status="PASS">
+        <test-method signature="badgeShowsTwoWhenAddingTwoItems()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:23 IST" name="badgeShowsTwoWhenAddingTwoItems" finished-at="2025-09-09T13:55:24 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeShowsTwoWhenAddingTwoItems -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:22 IST" name="tearDown" finished-at="2025-09-09T13:51:23 IST" duration-ms="364" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:24 IST" name="tearDown" finished-at="2025-09-09T13:55:24 IST" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -415,7 +415,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:23 IST" name="setUp" finished-at="2025-09-09T13:51:28 IST" duration-ms="5196" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:24 IST" name="setUp" finished-at="2025-09-09T13:55:28 IST" duration-ms="4340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,15 +431,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:28 IST" name="loginAndSetup" finished-at="2025-09-09T13:51:28 IST" duration-ms="754" status="PASS">
+        <test-method is-config="true" signature="loginAndSetup()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:28 IST" name="loginAndSetup" finished-at="2025-09-09T13:55:29 IST" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndSetup -->
-        <test-method signature="badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:28 IST" name="badgeUpdatesAfterRemovingItem" finished-at="2025-09-09T13:51:29 IST" duration-ms="398" status="PASS">
+        <test-method signature="badgeUpdatesAfterRemovingItem()[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:29 IST" name="badgeUpdatesAfterRemovingItem" finished-at="2025-09-09T13:55:30 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeUpdatesAfterRemovingItem -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:51:29 IST" name="tearDown" finished-at="2025-09-09T13:51:29 IST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCartBadgeCountValidationPage@3754a4bf]" started-at="2025-09-09T13:55:30 IST" name="tearDown" finished-at="2025-09-09T13:55:30 IST" duration-ms="347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,17 +452,17 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestCartBadgeCountValidationPage -->
       <class name="com.saucedemo.tests.BaseTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T13:49:48 IST" name="beforeSuite" finished-at="2025-09-09T13:49:48 IST" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T13:53:50 IST" name="beforeSuite" finished-at="2025-09-09T13:53:50 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T13:52:27 IST" name="afterSuite" finished-at="2025-09-09T13:52:28 IST" duration-ms="1025" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.saucedemo.tests.BaseTest@351d00c0]" started-at="2025-09-09T13:56:22 IST" name="afterSuite" finished-at="2025-09-09T13:56:22 IST" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.saucedemo.tests.BaseTest -->
       <class name="com.saucedemo.tests.TestCheckoutPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:29 IST" name="setUp" finished-at="2025-09-09T13:51:35 IST" duration-ms="6214" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:30 IST" name="setUp" finished-at="2025-09-09T13:55:34 IST" duration-ms="3682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -478,11 +478,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:35 IST" name="cancelCheckoutShouldReturnToCart" finished-at="2025-09-09T13:51:37 IST" duration-ms="1598" status="PASS">
+        <test-method signature="cancelCheckoutShouldReturnToCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:34 IST" name="cancelCheckoutShouldReturnToCart" finished-at="2025-09-09T13:55:35 IST" duration-ms="1310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelCheckoutShouldReturnToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:37 IST" name="tearDown" finished-at="2025-09-09T13:51:38 IST" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:35 IST" name="tearDown" finished-at="2025-09-09T13:55:35 IST" duration-ms="380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -493,7 +493,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:38 IST" name="setUp" finished-at="2025-09-09T13:51:42 IST" duration-ms="4883" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:35 IST" name="setUp" finished-at="2025-09-09T13:55:39 IST" duration-ms="3808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -509,11 +509,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:42 IST" name="cannotCheckoutWithEmptyCart" finished-at="2025-09-09T13:51:45 IST" duration-ms="2113" status="PASS">
+        <test-method signature="cannotCheckoutWithEmptyCart()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:39 IST" name="cannotCheckoutWithEmptyCart" finished-at="2025-09-09T13:55:41 IST" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cannotCheckoutWithEmptyCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:45 IST" name="tearDown" finished-at="2025-09-09T13:51:45 IST" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:41 IST" name="tearDown" finished-at="2025-09-09T13:55:41 IST" duration-ms="412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -524,7 +524,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:45 IST" name="setUp" finished-at="2025-09-09T13:51:50 IST" duration-ms="4710" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:41 IST" name="setUp" finished-at="2025-09-09T13:55:45 IST" duration-ms="3802" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,11 +540,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:50 IST" name="checkoutShowsCorrectConfirmationMessage" finished-at="2025-09-09T13:51:52 IST" duration-ms="2029" status="PASS">
+        <test-method signature="checkoutShowsCorrectConfirmationMessage()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:45 IST" name="checkoutShowsCorrectConfirmationMessage" finished-at="2025-09-09T13:55:47 IST" duration-ms="1855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutShowsCorrectConfirmationMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:52 IST" name="tearDown" finished-at="2025-09-09T13:51:52 IST" duration-ms="375" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:47 IST" name="tearDown" finished-at="2025-09-09T13:55:47 IST" duration-ms="382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -555,7 +555,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:52 IST" name="setUp" finished-at="2025-09-09T13:51:56 IST" duration-ms="4089" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:47 IST" name="setUp" finished-at="2025-09-09T13:55:51 IST" duration-ms="4320" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -571,11 +571,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:56 IST" name="completeCheckoutFlow" finished-at="2025-09-09T13:51:59 IST" duration-ms="2389" status="PASS">
+        <test-method signature="completeCheckoutFlow()[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:51 IST" name="completeCheckoutFlow" finished-at="2025-09-09T13:55:53 IST" duration-ms="1837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckoutFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:51:59 IST" name="tearDown" finished-at="2025-09-09T13:51:59 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestCheckoutPage@62379589]" started-at="2025-09-09T13:55:53 IST" name="tearDown" finished-at="2025-09-09T13:55:54 IST" duration-ms="422" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -588,7 +588,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestCheckoutPage -->
       <class name="com.saucedemo.tests.TestLogoutPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:52:22 IST" name="setUp" finished-at="2025-09-09T13:52:25 IST" duration-ms="2814" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:56:16 IST" name="setUp" finished-at="2025-09-09T13:56:19 IST" duration-ms="3090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -604,11 +604,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:52:25 IST" name="logoutWorks" finished-at="2025-09-09T13:52:26 IST" duration-ms="1696" status="PASS">
+        <test-method signature="logoutWorks()[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:56:19 IST" name="logoutWorks" finished-at="2025-09-09T13:56:21 IST" duration-ms="1673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutWorks -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:52:26 IST" name="tearDown" finished-at="2025-09-09T13:52:27 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.TestLogoutPage@175c2241]" started-at="2025-09-09T13:56:21 IST" name="tearDown" finished-at="2025-09-09T13:56:21 IST" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -621,7 +621,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucedemo.tests.TestLogoutPage -->
       <class name="com.saucedemo.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:49:48 IST" name="setUp" finished-at="2025-09-09T13:49:55 IST" duration-ms="6844" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:53:50 IST" name="setUp" finished-at="2025-09-09T13:53:55 IST" duration-ms="4917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -637,11 +637,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allValidUsersShouldLoginSuccessfully()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:49:55 IST" name="allValidUsersShouldLoginSuccessfully" finished-at="2025-09-09T13:50:07 IST" duration-ms="11589" status="PASS">
+        <test-method signature="allValidUsersShouldLoginSuccessfully()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:53:55 IST" name="allValidUsersShouldLoginSuccessfully" finished-at="2025-09-09T13:54:07 IST" duration-ms="11674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allValidUsersShouldLoginSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:07 IST" name="tearDown" finished-at="2025-09-09T13:50:07 IST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:07 IST" name="tearDown" finished-at="2025-09-09T13:54:07 IST" duration-ms="480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -652,7 +652,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:07 IST" name="setUp" finished-at="2025-09-09T13:50:11 IST" duration-ms="3731" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:07 IST" name="setUp" finished-at="2025-09-09T13:54:12 IST" duration-ms="4403" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -668,11 +668,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:11 IST" name="invalidUserShowsError" finished-at="2025-09-09T13:50:11 IST" duration-ms="590" status="PASS">
+        <test-method signature="invalidUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:12 IST" name="invalidUserShowsError" finished-at="2025-09-09T13:54:13 IST" duration-ms="843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserShowsError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:11 IST" name="tearDown" finished-at="2025-09-09T13:50:12 IST" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:13 IST" name="tearDown" finished-at="2025-09-09T13:54:13 IST" duration-ms="396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -683,7 +683,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:12 IST" name="setUp" finished-at="2025-09-09T13:50:15 IST" duration-ms="3180" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:13 IST" name="setUp" finished-at="2025-09-09T13:54:17 IST" duration-ms="3978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -699,11 +699,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:15 IST" name="lockedOutUserShowsError" finished-at="2025-09-09T13:50:16 IST" duration-ms="1099" status="PASS">
+        <test-method signature="lockedOutUserShowsError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:17 IST" name="lockedOutUserShowsError" finished-at="2025-09-09T13:54:18 IST" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUserShowsError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:16 IST" name="tearDown" finished-at="2025-09-09T13:50:16 IST" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:18 IST" name="tearDown" finished-at="2025-09-09T13:54:18 IST" duration-ms="390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -714,7 +714,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:16 IST" name="setUp" finished-at="2025-09-09T13:50:20 IST" duration-ms="3534" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:18 IST" name="setUp" finished-at="2025-09-09T13:54:22 IST" duration-ms="3895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,11 +730,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPasswordRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:20 IST" name="testPasswordRequiredError" finished-at="2025-09-09T13:50:21 IST" duration-ms="709" status="PASS">
+        <test-method signature="testPasswordRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:22 IST" name="testPasswordRequiredError" finished-at="2025-09-09T13:54:23 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPasswordRequiredError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:21 IST" name="tearDown" finished-at="2025-09-09T13:50:21 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:23 IST" name="tearDown" finished-at="2025-09-09T13:54:23 IST" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -745,7 +745,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:21 IST" name="setUp" finished-at="2025-09-09T13:50:25 IST" duration-ms="3934" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:23 IST" name="setUp" finished-at="2025-09-09T13:54:27 IST" duration-ms="3731" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -761,11 +761,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:25 IST" name="testUsernameRequiredError" finished-at="2025-09-09T13:50:26 IST" duration-ms="611" status="PASS">
+        <test-method signature="testUsernameRequiredError()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:27 IST" name="testUsernameRequiredError" finished-at="2025-09-09T13:54:28 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUsernameRequiredError -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:26 IST" name="tearDown" finished-at="2025-09-09T13:50:26 IST" duration-ms="372" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:28 IST" name="tearDown" finished-at="2025-09-09T13:54:28 IST" duration-ms="277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -776,7 +776,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:26 IST" name="setUp" finished-at="2025-09-09T13:50:30 IST" duration-ms="3852" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:28 IST" name="setUp" finished-at="2025-09-09T13:54:32 IST" duration-ms="4547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -792,11 +792,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:30 IST" name="validLogin" finished-at="2025-09-09T13:50:30 IST" duration-ms="632" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:32 IST" name="validLogin" finished-at="2025-09-09T13:54:33 IST" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:50:30 IST" name="tearDown" finished-at="2025-09-09T13:50:31 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginPageTest@459e9125]" started-at="2025-09-09T13:54:33 IST" name="tearDown" finished-at="2025-09-09T13:54:34 IST" duration-ms="521" status="PASS">
           <params>
             <param index="0">
               <value>
